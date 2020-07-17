@@ -12,7 +12,7 @@ Project: Using Bootstrap (Building a clone of www.newsweek.com website
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/SunnySparks/Building-with-responsive-design/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/happiguru/newsweek.com/feature-newsweek.com/index.html)
 
 
 ## Getting Started
