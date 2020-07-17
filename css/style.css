@@ -1,4 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    text-decoration: underline #f72210;
+}
 header {
     max-height: 150px;
 }
@@ -56,6 +78,40 @@ form div {
 
 main {
     margin-top: 40px;
+    height: auto;
+}
+
+main > section {
+    height: auto;
+    margin: 3px;
+}
+
+.feature-section,
+.story-section,
+.debate-section {
+    height: 2320px;
+    border: 1px solid blue;
+}
+
+article {
+    height: auto;
+}
+
+.caption {
+    position: relative;
+    top: -45px;
+    left: 20px;
+    background-color: rgb(212, 191, 191);
+    width: 80px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+.caption a {
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.0em;
 }
 
 #header-bottom {
@@ -69,14 +125,19 @@ main {
 #section-center {
     border: 1px solid green;
 }
+
 #background-left-a,
 #background-left-b,
 #background-left-c,
 #background-left-d,
 #background-left-e {
-    width: 342px;
-    height: 228px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 50%;
 }
 
 #background-left-a {
@@ -101,7 +162,15 @@ main {
 
 #background-center-a {
     background-image: url("https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a");
-    width: 506px;
+    width: 440px;
     height: 311px;
     background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 24px;
 }
