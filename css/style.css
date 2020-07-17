@@ -53,3 +53,55 @@ form div {
     height: 24px;
     margin: 0;
 }
+
+main {
+    margin-top: 40px;
+}
+
+#header-bottom {
+    border: 1px solid black;
+}
+
+#section-left {
+    border: 1px solid red;
+}
+
+#section-center {
+    border: 1px solid green;
+}
+#background-left-a,
+#background-left-b,
+#background-left-c,
+#background-left-d,
+#background-left-e {
+    width: 342px;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+#background-left-a {
+    background-image: url("https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260");
+}
+
+#background-left-b {
+    background-image: url("https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f");
+}
+
+#background-left-c {
+    background-image: url("https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9");
+}
+
+#background-left-d {
+    background-image: url("https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03");
+}
+
+#background-left-e {
+    background-image: url("https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167");
+}
+
+#background-center-a {
+    background-image: url("https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a");
+    width: 506px;
+    height: 311px;
+    background-repeat: no-repeat;
+}
