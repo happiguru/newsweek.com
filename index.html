@@ -12,7 +12,7 @@
     <body>
         <!-- Mobile View-->
         <nav class="navbar mobile-navbar navbar-expand-sm navbar-expand-md d-lg-none navbar-light">
-            <div class="container">
+            <div class="container-fluid float-left">
                         <a class="navbar-brand text-white" href="#">Newsweek</a>
                     <ul class="top-navbar">
                         <button class="btn btn-sm text-white d-none d-md-none d-lg-block">Login</button>
@@ -26,59 +26,58 @@
         </nav>
         <!-- Mobile View Ends Here-->
         <header class="container-fluid header-container d-none d-lg-block">
-        <div class="page-header d-inline position-absolute">
-          <h1 class="logo-text text-center text-white display-1">Newsweek</h1>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 mb-2 mt-5 p-0"><date class="text-white">Mon, Jul 20, 2020</date></div>
-                <div class="col-sm-6 mb-2 mt-5 p-1 d-flex justify-content-end">
-                    <button class="btn text-white">Login</button>
-                    <button class="btn bg-warning rounded-pill">Subscribe</button>
+            <div class="page-header d-inline position-absolute">
+              <h1 class="logo-text text-center text-white display-1">Newsweek</h1>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 mb-2 mt-5 p-0"><date class="text-white">Mon, Jul 20, 2020</date></div>
+                    <div class="col-sm-6 mb-2 mt-5 p-1 d-flex justify-content-end">
+                        <button class="btn text-white">Login</button>
+                        <button class="btn bg-warning rounded-pill">Subscribe</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid">
-            <div class="api">
-                <a href="/weather" title="Weather" class="weather-cwidget ml-n3 text-white">
-                    <picture style="display: inherit;">
-                        <source srcset="https://g.newsweek.com/img/weather/34.webp" type="image/webp" />
-                        <img src="https://g.newsweek.com/img/weather/34.png" alt="Fair" class="weather-icon" />
-                    </picture>
-                    &nbsp;&nbsp;37°
-                    <span class="weather-country">
-                        Sharjah, AE&nbsp;&nbsp;
+            <div class="container-fluid">
+                <div class="api">
+                    <a href="/weather" title="Weather" class="weather-cwidget ml-n3 text-white">
                         <picture style="display: inherit;">
-                            <source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
-                            <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" />
+                            <source srcset="https://g.newsweek.com/img/weather/34.webp" type="image/webp" />
+                            <img src="https://g.newsweek.com/img/weather/34.png" alt="Fair" class="weather-icon" />
                         </picture>
-                    </span>
-                </a>
-            </div>
-        </div>
-        </header>
-            <nav class="navbar navbar-expand" id="middle-navbar">
-                <div class="coll navbar-collapse position-relative" id="coll">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/us" title="">U.S. <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/world" title="">World</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/business" title="">Business</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/tech-science" title="">Tech &amp; Science</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/culture" title="">Culture</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/sports" title="">Sports</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/health" title="">Health</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/the-debate" title="">The Debate</a></li>
-                    <li class="nav-item"><a class="nav-link border border-left-0 border-top-0 border-bottom-0" href="https://www.newsweek.com/vantage" title="">Vantage</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/weather" title="">Weather</a></li>
-                  </ul>
-                  <form class="form-inline my-2 my-md-0">
-                    <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                  </form>
+                        &nbsp;&nbsp;37°
+                        <span class="weather-country">
+                            Sharjah, AE&nbsp;&nbsp;
+                            <picture style="display: inherit;">
+                                <source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
+                                <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" />
+                            </picture>
+                        </span>
+                    </a>
                 </div>
-              </nav>
-            <nav class="navbar">
+            </div>
+        </header>
+            <nav class="nav-navigation" id="middle-navbars">
+                  <ul class="navbar-nav1">
+                    <li class="nav-item1 active"><a class="nav-link1 " href="https://www.newsweek.com/us" title="">U.S. <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/world" title="">World</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/business" title="">Business</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="">Tech &amp; Science</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/culture" title="">Culture</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/sports" title="">Sports</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/health" title="">Health</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/the-debate" title="">The Debate</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/vantage" title="">Vantage</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/weather" title="">Weather</a></li>
+                  </ul>
+                  <form class="form-field form-inline">
+                    <input class="search-input form-control border-0" type="search" placeholder="Search">
+                    <button class="search-btn btn" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+            </nav>
+            
+            <nav class="navbar navia">
                 <ul class="nav">
                     <li class="nav-item"><strong>Trending</strong></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/donald-trump">Donald Trump</a></li>
@@ -165,7 +164,7 @@
                                         <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
                                     </section>
                                     <section class="col-4">
-                                        <img src="	https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6" class="background-center-b" />
+                                        <img src="  https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6" class="background-center-b" />
                                         <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
                                     </section>
                                 </div>

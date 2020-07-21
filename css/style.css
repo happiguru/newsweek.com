@@ -30,16 +30,11 @@
   .page-header {
       z-index: 2;
       left: 33%;
-      /* top: 55px; */
   }
-
+ /*This is for the mobile navbar*/
   .mobile-navbar {
       background: #f72210;
       height: 70px;
-  }
-
-  .top-navbar {
-      float: right;
   }
 
   .navbar-brand {
@@ -47,60 +42,62 @@
       font-weight: 700;
   }
 
-  .form-inline .form-control {
-      width: 90px;
-  }
-  
-  .header-top {
-    background-color: hsla(356, 86%, 55%, 1);
-    height: 100px;
-    max-height: 100px;
+  picture {
+    display: inherit;
   }
 
-  .top-nav {
-    flex-direction: row-reverse;
-    width: inherit;
-    height: 50px;
-    border: 1px solid blue;
+  /*This is for the middle navbar*/
+
+  .nav-navigation {
+                display: flex;
+                justify-content: space-between;
+                height: 55px;
+            }
+
+            .navbar-nav1 {
+                display: flex;
+                flex-wrap: nowrap;
+                align-content: center;
+                align-items: stretch;
+                width: 90%;
+                height: 54px;
+            }
+            .navbar-nav1 li {
+                list-style-type: none;
+                padding: 3px; 
+                flex-grow: 1;
+            }
+
+            ul.navbar-nav1 {
+                font-size: 1.0rem;
+                line-height: 24px;
+                font-weight: bold;
+                font-family: "Roboto Condensed",sans-serif;
+                color: black;
+            }    
+
+            ul.navbar-nav1 li a {
+                color: black;
+                display: block;
+                padding: 15px 5px;
+                flex-grow: 1;
+            }  
+
+            .search-input {
+                width: 70%;
+                border: 1px solid red;
+            }
+
+            .form-control {
+                width: 30%;
+                border: 1px solid red;
+            }
+
+            .form-inline .form-control {
+      width: 64px;
   }
-  
-  .page-nav {
-    display: flex;
-  }
-  
-  form div {
-    display: flex;
-    border: 1px solid green;
-  }
-  
-  .leaf {
-  }
-  
-  .date-filed,
-  .subscribe {
-    position: relative;
-    top: 50px;
-  }
-  
-  .api {
-    position: absolute;
-    top: 12px;
-  }
-  
-  .header-middle {
-    transform: translate(-50%, 0);
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    left: 50%;
-    padding: 10px 0;
-  }
-  
-  .weather-icon {
-    width: 24px;
-    height: 24px;
-    margin: 0;
-  }
+
+  /* Main Section Starts here */
   
   main {
     margin-top: 40px;
@@ -205,19 +202,25 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 1019px) {
-    #middle-navbar {
+  @media screen and (max-width: 991px) {
+    #middle-navbar,
+    nav.nav-navigation {
         display: none;
     }
+    
 }
   
-  @media screen and (min-width: 1020px) {
+  @media screen and (min-width: 992px) {
       #middle-navbar {
           display: block;
       }
 
+      nav.nav-navigation {
+        display: flex;
+      }
+
       ul.navbar-nav {
-        font-size: 19px;
+        font-size: 1.0rem;
         line-height: 24px;
         font-weight: bold;
         font-family: "Roboto Condensed",sans-serif;
@@ -231,6 +234,10 @@
       .form-inline {
           width: 14%;
           justify-content: flex-end;
+      }
+
+      .form-control {
+          padding: 0;
       }
 
       .navbar-nav {
