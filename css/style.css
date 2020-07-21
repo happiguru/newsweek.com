@@ -201,10 +201,54 @@
   .background-center-b {
     width: 100%;
   }
+  
+  .image-thumbnail {
+    width: 63px;
+  }
+  
+  #versus-logo {
+    width: 30px;
+  }
+  
+  #email-subscription {
+    background-color: #f4f5f6;
+  }
+  
+  #versus-container::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  
+  #versus-container::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .horizontal-line {
+      z-index: -1;
+      top: 15px;
+      height: 3px;
+  }
+
+  .svg-image {
+      z-index: 50;
+      top: 60px;
+  }
 
   @media screen and (max-width: 991px) {
     #middle-navbar,
-    nav.nav-navigation {
+    nav.nav-navigation,
+    nav.navia {
         display: none;
     }
     
