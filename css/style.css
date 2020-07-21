@@ -21,8 +21,34 @@
   h6:hover {
     text-decoration: underline #f72210;
   }
-  header {
+  .header-container {
     max-height: 150px;
+    background-color: #f72210;
+    height: 100px;
+  }
+
+  .page-header {
+      z-index: 2;
+      left: 33%;
+      /* top: 55px; */
+  }
+
+  .mobile-navbar {
+      background: #f72210;
+      height: 70px;
+  }
+
+  .top-navbar {
+      float: right;
+  }
+
+  .navbar-brand {
+      font-size: 2.0rem;
+      font-weight: 700;
+  }
+
+  .form-inline .form-control {
+      width: 90px;
   }
   
   .header-top {
@@ -30,7 +56,7 @@
     height: 100px;
     max-height: 100px;
   }
-  
+
   .top-nav {
     flex-direction: row-reverse;
     width: inherit;
@@ -178,4 +204,44 @@
   .background-center-b {
     width: 100%;
   }
+
+  @media screen and (max-width: 1019px) {
+    #middle-navbar {
+        display: none;
+    }
+}
   
+  @media screen and (min-width: 1020px) {
+      #middle-navbar {
+          display: block;
+      }
+
+      ul.navbar-nav {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: bold;
+        font-family: "Roboto Condensed",sans-serif;
+        color: black;
+      }    
+
+      ul.navbar-nav li a {
+        color: black;
+      }    
+
+      .form-inline {
+          width: 14%;
+          justify-content: flex-end;
+      }
+
+      .navbar-nav {
+          width: 86%;
+      }
+
+      #coll {
+          margin: 0;
+          display: flex;
+      }
+      .navbar-expand .navbar-collapse {
+          display: flex !important;
+      }
+  }
