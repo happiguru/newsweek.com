@@ -1,181 +1,212 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  
-  h1:hover,
-  h2:hover,
-  h3:hover,
-  h4:hover,
-  h5:hover,
-  h6:hover {
-    text-decoration: underline #f72210;
-  }
-  header {
-    max-height: 150px;
-  }
-  
-  .header-top {
-    background-color: hsla(356, 86%, 55%, 1);
-    height: 100px;
-    max-height: 100px;
-  }
-  
-  .top-nav {
-    flex-direction: row-reverse;
-    width: inherit;
-    height: 50px;
-    border: 1px solid blue;
-  }
-  
-  .page-nav {
-    display: flex;
-  }
-  
-  form div {
-    display: flex;
-    border: 1px solid green;
-  }
-  
-  .leaf {
-  }
-  
-  .date-filed,
-  .subscribe {
-    position: relative;
-    top: 50px;
-  }
-  
-  .api {
-    position: absolute;
-    top: 12px;
-  }
-  
-  .header-middle {
-    transform: translate(-50%, 0);
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    left: 50%;
-    padding: 10px 0;
-  }
-  
-  .weather-icon {
-    width: 24px;
-    height: 24px;
-    margin: 0;
-  }
-  
-  main {
-    margin-top: 40px;
-    height: auto;
-  }
-  
-  main > section {
-    height: auto;
-    margin: 3px;
-  }
-  
-  .feature-section,
-  .story-section,
-  .debate-section {
-    height: 2320px;
-    border: 1px solid blue;
-  }
-  
-  article {
-    height: auto;
-  }
-  
-  .caption {
-    position: relative;
-    top: -45px;
-    left: 20px;
-    background-color: rgb(212, 191, 191);
-    width: 80px;
-    height: 35px;
-    opacity: 0.5;
-  }
-  
-  .caption a {
-    color: red;
-    text-align: center;
-    font-weight: 800;
-    font-size: 1em;
-  }
-  
-  #header-bottom {
-    border: 1px solid black;
-  }
-  
-  #section-left {
-    border: 1px solid red;
-  }
-  
-  #section-center {
-    border: 1px solid green;
-  }
-  
-  #background-left-a,
-  #background-left-b,
-  #background-left-c,
-  #background-left-d,
-  #background-left-e {
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 50%;
-  }
-  
-  #background-left-a {
-    background-image: url("https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260");
-  }
-  
-  #background-left-b {
-    background-image: url("https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f");
-  }
-  
-  #background-left-c {
-    background-image: url("https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9");
-  }
-  
-  #background-left-d {
-    background-image: url("https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03");
-  }
-  
-  #background-left-e {
-    background-image: url("https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167");
-  }
-  
-  #background-center-a {
-    background-image: url("https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a");
-    width: 440px;
-    height: 311px;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  h3 {
-    font-size: 24px;
-    line-height: 24px;
-  }
-  
-  .background-center-b {
-    width: 100%;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  text-decoration: underline #f72210;
+}
+header {
+  max-height: 150px;
+}
+
+.header-top {
+  background-color: hsla(356, 86%, 55%, 1);
+  height: 100px;
+  max-height: 100px;
+}
+
+.top-nav {
+  flex-direction: row-reverse;
+  width: inherit;
+  height: 50px;
+  border: 1px solid blue;
+}
+
+.page-nav {
+  display: flex;
+}
+
+form div {
+  display: flex;
+  border: 1px solid green;
+}
+
+.leaf {
+}
+
+.date-filed,
+.subscribe {
+  position: relative;
+  top: 50px;
+}
+
+.api {
+  position: absolute;
+  top: 12px;
+}
+
+.header-middle {
+  transform: translate(-50%, 0);
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 50%;
+  padding: 10px 0;
+}
+
+.weather-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+main {
+  margin-top: 40px;
+  height: auto;
+}
+
+main > section {
+  height: auto;
+  margin: 3px;
+}
+
+.feature-section,
+.story-section,
+.debate-section {
+  height: 2320px;
+  border: 1px solid blue;
+}
+
+article {
+  height: auto;
+}
+
+.caption {
+  position: relative;
+  top: -45px;
+  left: 20px;
+  background-color: rgb(212, 191, 191);
+  width: 80px;
+  height: 35px;
+  opacity: 0.5;
+}
+
+.caption a {
+  color: red;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+#header-bottom {
+  border: 1px solid black;
+}
+
+#section-left {
+  border: 1px solid red;
+}
+
+#section-center {
+  border: 1px solid green;
+}
+
+#background-left-a,
+#background-left-b,
+#background-left-c,
+#background-left-d,
+#background-left-e {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 50%;
+}
+
+#background-left-a {
+  background-image: url("https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260");
+}
+
+#background-left-b {
+  background-image: url("https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f");
+}
+
+#background-left-c {
+  background-image: url("https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9");
+}
+
+#background-left-d {
+  background-image: url("https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03");
+}
+
+#background-left-e {
+  background-image: url("https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167");
+}
+
+#background-center-a {
+  background-image: url("https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a");
+  width: 440px;
+  height: 311px;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.background-center-b {
+  width: 100%;
+}
+
+.image-thumbnail {
+  width: 63px;
+}
+
+#versus-logo {
+  width: 30px;
+}
+
+#email-subscription {
+  background-color: #f4f5f6;
+}
+
+#versus-container::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#versus-container::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
