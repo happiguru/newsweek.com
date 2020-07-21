@@ -261,7 +261,7 @@
       margin-right: auto;
     }
 
-    .social {
+/*    .social {
       margin-left: 0em!important;
     }
 
@@ -271,7 +271,7 @@
 
     .editions-list li{
       border-right: 0em!important;
-    }
+    }*/
   }
   
   @media screen and (max-width: 991px) {
