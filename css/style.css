@@ -243,6 +243,37 @@
     color: #656665;
   }
   
+
+  @media screen and (max-width: 760px) {
+    #sticky-footer {
+      margin: 0;
+      padding: 0;
+    }
+
+    #footer-content {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .footer-copyright,
+    .social {
+      align-self: flex-start;
+      margin-right: auto;
+    }
+
+    .social {
+      margin-left: 0em!important;
+    }
+
+    .navbar-nav {
+      border: none;
+    }
+
+    .editions-list li{
+      border-right: 0em!important;
+    }
+  }
+  
   @media screen and (max-width: 991px) {
     #middle-navbar,
     nav.nav-navigation,
