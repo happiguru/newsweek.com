@@ -106,6 +106,13 @@
     border: 1px solid blue;
   }
   
+  .story-section,
+  .debate-section {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
   article {
     height: auto;
   }
@@ -147,7 +154,7 @@
     width: 90%;
     display: block;
     margin: 0 auto;
-    height: 250px;
+    height: 155px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 50%;
@@ -187,9 +194,15 @@
     font-size: 24px;
     line-height: 24px;
   }
+
+  /*.left-scroll {
+      overflow-x: hidden; 
+      overflow-y: auto; 
+      text-align:justify; 
+  }*/
   
   .background-center-b {
-    width: 100%;
+    width: 155px;
   }
   
   .image-thumbnail {
@@ -228,6 +241,14 @@
     z-index: -1;
     top: 15px;
     height: 3px;
+  }
+
+  #mag-pic-a {
+    width: 195.5px;
+  }
+
+  .mag-pic-b {
+    width: 195px;
   }
   
   .svg-image {
