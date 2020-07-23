@@ -200,7 +200,8 @@
   }*/
   
   .background-center-b {
-    width: 155px;
+    width: 100%;
+    margin: 0;
   }
   
   .image-thumbnail {
