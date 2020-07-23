@@ -406,5 +406,42 @@
       width: 290px;
 
     }
+
+    /* #mag-pic-a {
+      width: 100px;
+    } */
+
+    div.magazine-pick article > img,
+    div.editor-pick article > img {
+      width: 100%;
+    }
+
+    div.sub-left {
+      background-color: #f4f5f6;
+      height: 350px;
+    }
+
+    div.fn,
+    div.fn.image {
+      width: 35%;
+      height: 300px;
+    }
+
+    div.f1,
+    div.f1.info {
+      width: 65%;
+      margin-top: 10%;
+    }
+
+    div.mag-thumb {
+      z-index: 6;
+      top: -230px;
+      left: 100px;
+    }
+
+    div.last-section {
+      height: 200px;
+      margin: 0;
+    }
   }
   

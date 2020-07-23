@@ -11,7 +11,7 @@
     </head>
     <body>
 
-    <div class="container header-main border clearfix">
+    <div class="container-fluid header-main border clearfix">
                 <!-- Mobile View-->
         <nav class="navbar mobile-navbar clearfix navbar-expand-sm navbar-expand-md fixed-top d-lg-none navbar-light">
                 <div class="w-40 float-left">
@@ -482,7 +482,7 @@
                 </div>
             </aside>
         </section>
-        <section class="container-fluid border mt-4">
+        <section class="border mt-4">
             <div class="w-100 d-md-none d-flex flex-column">
                 <article class="container-fluid story-grid order-1 border">
                     <h5>MY TURN</h5>
@@ -625,10 +625,12 @@
                 <h3 class="ml-2">IN THE MAGAZINE</h3>
             </div>
             <div class="container-fluid border">
-                <div class="row">
+                <div class="row magazine-pick">
                     <article class="w-100 border mb-2 col-lg-3">
-                        <div class="mag-pic-a"></div> <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" alt="2ndwave" id="mag-pic-a">
-                        <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                        <img class="" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" alt="2ndwave" id="mag-pic-a">
+                        <div class="caption">
+                            <a href="https://www.newsweek.com/us">U.S.</a>
+                        </div>
                         <header class="w-100 mt-n4">
                             <h5 class="bg-secondary d-inline-block"><a href="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" class="text-dark" title="">SEE ALL FEATURES > </a></h5>
                         </header>
@@ -707,10 +709,10 @@
             </div>
             <div class="d-flex mt-2 mb-2 border flex-row justify-content-center align-items-center">
                 <img src="https://g.newsweek.com/themes/newsweek/favicon.ico">
-                <h3 class="ml-2">IN THE MAGAZINE</h3>
+                <h3 class="ml-2">EDITOR'S PICK</h3>
             </div>
                 <div class="container-fluid border">
-                    <div class="row">
+                    <div class="row editor-pick">
                         <article class="w-100 border mb-2 col-lg-3">
                             <img src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
@@ -777,6 +779,40 @@
                         </article>
                     </div>
                 </div>
+        </section>
+        <section class="last-section row mt-2 m-0 border border-success">
+            <article class="subscribe-art col-sm-12 col-md-8 w-100 clearfix border">
+                <div class="block-title red mb-1 border border-danger">Subscribe</div>
+                <div class="sub-left border border-danger">
+                    <div class="fn image float-left border border-danger">
+                        <div class="mag-thumb prev m-4 border border-danger">
+                            <img class="img-fluid" data-src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&amp;q=95&amp;f=2ea70c30e8f5467c1e61021ae9778138" class="lazyloaded" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&amp;q=95&amp;f=2ea70c30e8f5467c1e61021ae9778138">
+                        </div>
+                        <div class="mag-thumb current position-relative">
+                            <img data-src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&amp;q=95&amp;f=e9849b39e78f364f0f8bb410954aa063" class="lazyloaded" src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&amp;q=95&amp;f=e9849b39e78f364f0f8bb410954aa063">
+                        </div>
+                    </div>
+                    <div class="f1 info float-right border border-danger">
+                        <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                        <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+                        <button class="pelcro-subscribe-button">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-12 col-md-4 border">
+                <div class="block-title red border border-danger">NEWSLETTER</div>
+                <div class="col-r f1 flex-sm w-100 clearfix border border-danger">
+                    <div class="fn image lazyloaded float-left border border-danger" data-bg="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5" style="background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5&quot) center center / cover no-repeat;">
+                    </div>
+                    <div class="f1 info float-right border border-danger">
+                        <h3>The Starting 5</h3>
+                        <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                        <form class="free-signup">
+                        <input type="text" class="form-text" placeholder="Email address">
+                        <input type="submit" class="form-submit" value="Free Sign Up"></form>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
         <footer id="sticky-footer" class="container-fluid mx-n3 py-2">
