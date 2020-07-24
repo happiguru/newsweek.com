@@ -3,8 +3,11 @@
     margin: 0;
     padding: 0;
   }
-  
-  h1,
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+  }
+
   h2,
   h3,
   h4,
@@ -152,6 +155,11 @@
   
   #section-center {
     border: 1px solid green;
+  }
+
+  .story-grid a {
+    color: #939393;
+    font-weight: bold;
   }
   
   h3 {
@@ -308,7 +316,11 @@
   @media screen and (min-width: 992px) {
     
     main {
-      margin-top: 200px;
+      margin-top: 20px;
+    }
+
+    .top-header{
+      padding:0;
     }
     
     #middle-navbar {
@@ -360,12 +372,16 @@
     flex-grow: 1;
   }
   
+  #nav-link-long {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
     .feature-section,
     .story-section,
     .debate-section {
       height: auto;
-      border: 1px solid blue;
+      /*border: 1px solid blue;*/
     }
     
     .story-section,
@@ -477,6 +493,32 @@
     div.last-section {
       height: 200px;
       margin: 0;
+    }
+
+    .feature-cont {
+      align-items: flex-start;
+    }
+
+    .story-section {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 4rem;
+      align-self: flex-start;
+    }
+
+    .feature-section {
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 1rem;
+      align-self: flex-end;
+    }
+
+    .last-section {
+      flex-direction: row;
+    }
+
+    #newsletter-large-pic {
+      display:inline;
     }
   }
   

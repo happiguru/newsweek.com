@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link href="cssreset" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/cbdf2b0f0e.js" crossorigin="anonymous"></script>
         <title>News Week Magazine</title>
     </head>
     <body>
 
-    <div class="container-fluid fixed-top header-main border clearfix">
+    <div class="container-fluid header-main border clearfix top-header">
                 <!-- Mobile View-->
         <nav class="navbar mobile-navbar p-0 clearfix navbar-expand-sm navbar-expand-md fixed-top d-lg-none navbar-light">
                 <div class="w-30 p-0 h-auto float-left">
@@ -68,7 +69,7 @@
                 </li>
                 <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/world" title="">World</a></li>
                 <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/business" title="">Business</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="">Tech &amp; Science</a></li>
+                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="" id="nav-link-long">Tech &amp; Science</a></li>
                 <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/culture" title="">Culture</a></li>
                 <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
                 <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/sports" title="">Sports</a></li>
@@ -99,146 +100,84 @@
         <section class="row">
             <div class="col-xs-12 col-md-12 col-lg-8 col-xl-9">
                 <div class="row d-md-flex feature-cont">
-                    <div class="col-xs-12 mt-2 col-md-6 col-lg-5 col-xl-5 feature-section order-2 order-sm-2 order-md-1 left-scroll">
-                        <h4 class="ml-0">FEATURED STORIES</h4>
-                        <article class="w-100 border mb-2">
+                    <div class="col-xs-12 col-md-6 col-lg-5 col-xl-5 feature-section order-2 order-sm-2 order-md-1 left-scroll">
+                        <h6 class="ml-0"><strong>FEATURED STORIES</strong></h6>
+                        <article class="w-100 mb-2">
                             <div id="background-left-a w-100 border">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260" alt="t">
                             </div>
                             <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
                             <header class="w-100 mt-n4">
                                 <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333" title="">
-                                        Smithsonian Race Guidelines: Rational Thinking & Hard Work Are White Values
+                                    <a href="https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333" title="" class="text-dark">
+                                        <strong>Smithsonian Race Guidelines: Rational Thinking & Hard Work Are White Values</strong>
                                     </a>
                                 </h3>
                             </header>
                             <p class="ml-0">A graphic displayed in the guidelines, entitled "Aspects and Assumptions of Whiteness in the United States," declares that rational thinking and hard work, among others, are white values.</p>
                         </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
+                        <article class="w-100 mb-2">
+                            <div id="background-left-a w-100">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f" alt="t">
                             </div>
                             <div class="caption"><a href="https://www.newsweek.com/tech-science">CULTURE</a></div>
                             <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/twitter-hack-bitcoin-scam-1518567" title="">Twitter Says 130 Accounts Targeted in Hack, Status of DMs Unclear </a></h3>
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/twitter-hack-bitcoin-scam-1518567" title="" class="text-dark">
+                                        <strong>Twitter Says 130 Accounts Targeted in Hack, Status of DMs Unclear</a></strong></h3>
                             </header>
                             <p class="ml-0">
                                 The social network's security team is continuing to analyze the scope of the cyberattack believed to have exploited an internal system accessed by a "coordinated social engineering attack."
                             </p>
                         </article>
-                        <article class="w-100 border mb-2">
+                        <article class="w-100 mb-2">
                             <div id="background-left-a w-100 border">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9" alt="t">
                             </div>
                             <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
                             <header class="w-100 mt-n4">
                                 <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" title="">Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined' </a>
+                                    <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" title="" class="text-dark">
+                                        <strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined' </strong></a>
                                 </h3>
                             </header>
                             <p class="ml-0">The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
                         </article>
-                        <article class="w-100 border mb-2">
+                        <article class="w-100 mb-2">
                             <div id="background-left-a w-100 border">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03" alt="t">
                             </div>
                             <div class="caption"><a href="https://www.newsweek.com/culture">CULTURE</a></div>
                             <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/tiktok-who-meet-triller-app-looking-unseat-king-video-1518467" title="">TikTok Who? Meet Triller, the App Looking to Unseat The King of Video </a></h3>
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/tiktok-who-meet-triller-app-looking-unseat-king-video-1518467" title="" class="text-dark">
+                                        <strong>TikTok Who? Meet Triller, the App Looking to Unseat The King of Video</strong></a></h3>
                             </header>
                             <p class="ml-0">Ryan Kavanaugh at Triller, told "Newsweek" all about the app that's getting millions of new followers a day.</p>
                         </article>
-                        <article class="w-100 border mb-2">
+                        <article class="w-100 mb-2">
                             <div id="background-left-a w-100 border">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
                             </div>
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                        <article class="w-100 border mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="" class="text-dark">
+                                        <strong>House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020</strong></a></h3>
                             </header>
                             <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                         </article>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-7 story-section order-1 order-sm-1 order-md-1 align-items-start">
-                        <h4>TOP STORY</h4>
-                        <article class="w-100 border">
+                        <h6><strong>TOP STORY</strong></h6>
+                        <article class="w-100">
                             <div class="w-100 border" id="background-center-a">
                                 <img src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" class="img-fluid">
                             </div>
-                            <a href="https://www.newsweek.com/us">U.S.</a>
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header>
-                                <h3><a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" title="">DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not </a></h3>
+                                <h3><a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" title="" class="text-dark">
+                                    <strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong></a></h3>
                             </header>
                             <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
                         </article>
@@ -381,8 +320,8 @@
                     </div>
                 </div>
             </div>
-            <aside class="col-xs-12 mt-3 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section">
-                <h6>THE DEBATE</h6>
+            <aside class="col-xs-12 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section">
+                <h6><strong>THE DEBATE</strong></h6>
                 <div class="ml-0 flex-column border border-left-0 border-right-0 border-secondary justify-content-center">
                     <article class="d-flex">
                         <div class="mt-3 image-thumbnail"><img src="https://d.newsweek.com/en/full/1603199/joel-l-daniels.png?w=150&h=150&f=d12a7dd02182bbc8bcc9cade519ce978" class="image-thumbnail" /></div>
@@ -477,42 +416,42 @@
                     </div>
                 </div>
                 <div class="row mt-3 right-news-cont">
-                    <article class="col-md-6 w-100 border mb-2">
+                    <article class="col-md-6 col-lg-12 w-100 mb-2">
                         <div class="w-100 border" id="background-center-a">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
                         </div>
                         <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                         <header class="w-100 mt-2">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
                         </header>
-                        <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                     </article>
-                    <article class="col-md-6 w-100 border mb-2">
+                    <article class="col-md-6 col-lg-12 w-100 mb-2">
                         <div class="w-100 border" id="background-center-a">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
                         </div>
                         <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                         <header class="w-100 mt-n4">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
                         </header>
-                        <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                     </article>
-                    <article class="col-md-6 w-100 border mb-2">
+                    <article class="col-md-6 col-lg-12 w-100 mb-2">
                         <div class="w-100 border" id="background-center-a">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
                         </div>
                         <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                         <header class="w-100 mt-n4">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
                         </header>
-                        <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                     </article>
                 </div>
             </aside>
         </section>
         <section class="border mt-4">
             <div class="w-100 d-md-none d-flex flex-column">
-                <article class="story-grid order-1 border">
+                <article class="story-grid order-1">
                     <h5>MY TURN</h5>
                     <div class="row">
                         <section class="col-sm-12 col-md-4">
@@ -654,13 +593,13 @@
             </div>
         </section>
         <section>
-            <div class="d-flex mt-2 mb-2 flex-row justify-content-center align-items-center border">
+            <div class="d-flex mt-2 mb-2 flex-row justify-content-center align-items-center border border-top-0 border-left-0 border-right-0 pb-3 ">
                 <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico">
                 <h3 class="ml-2">IN THE MAGAZINE</h3>
             </div>
-            <div class="border">
+            <div class="">
                 <div class="row magazine-pick">
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" alt="2ndwave"/>
                         <div class="caption">
                             <a href="https://www.newsweek.com/us">U.S.</a>
@@ -671,7 +610,7 @@
                             </h5>
                         </header>
                     </article>
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610816/fea-kushner.jpg?w=466&h=311&q=90&f=f9b24699b13b622e46afad59b7a07bfa" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
@@ -683,7 +622,7 @@
                             </h5>
                         </header>
                     </article>
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610210/fea-secondwave.jpg?w=466&h=311&l=51&t=44&q=90&f=63abb2f7ed334c51fb997e04c688737b" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
@@ -693,7 +632,7 @@
                             <h5 class=""><a href="https://www.newsweek.com/second-wave-could-mean-better-survival-rates-coronavirus-patients-1516099" class="text-dark" title="">A Second Wave Could Mean Better Survival Rates for Coronavirus Patients</a></h5>
                         </header>
                     </article>                        
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607718/per-economy-01.jpg?w=466&h=311&q=90&f=aceffcfa363625adfdcedf71860ce45c" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
@@ -703,7 +642,7 @@
                             <h5 class=""><a href="https://www.newsweek.com/2020/07/17/4-smart-money-moves-make-economy-starts-recover-1516433.html" class="text-dark" title="">4 Smart Money Moves to Make As the Economy Starts to Recover</a></h5>
                         </header>
                     </article>
-                    <article class="border mb-2 col-md-3">
+                    <article class="mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607615/f-scott-fitzgerald-author-great.jpg?w=466&h=311&q=90&f=66b0462eae1e0d219546ab769f1df01d" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
@@ -713,7 +652,7 @@
                             <h5 class=""><a href="https://www.newsweek.com/liberalism-has-failed-opinion-1516318" class="text-dark" title="">Liberalism Has Failed</a></h5>
                         </header>
                     </article>
-                    <article class="border mb-2 col-md-3">
+                    <article class="mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610213/per-trump.jpg?w=466&h=311&l=50&t=46&q=90&f=4ac1b26567fbda17104a815e0df210a0" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
@@ -723,7 +662,7 @@
                             <h5 class=""><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h5>
                         </header>
                     </article>
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607679/i-pastafari-flying-spaghetti-monster-story.jpg?w=466&h=311&l=49&t=54&q=90&f=80fb1dc9ebc92948a456a1eafe207291" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
@@ -733,7 +672,7 @@
                             <h5 class=""><a href="https://www.newsweek.com/i-pastafari-church-flying-spaghetti-monster-interview-1515169" class="text-dark" title="">'I, Pastafari' Doc Chronicles the Church of the Flying Spaghetti Monster</a></h5>
                         </header>
                     </article>
-                    <article class="w-100 border mb-2 col-md-3">
+                    <article class="w-100 mb-2 col-md-3">
                         <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609107/cul-ps-bialik.jpg?w=466&h=311&l=45&t=32&q=90&f=818c10d036f92d896dc83c874a28a257" alt="">
                         <div class="d-flex mb-3 mt-2">
                             <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
@@ -745,13 +684,13 @@
                     </article>
                 </div>
             </div>
-            <div class="d-flex mt-2 mb-2 border flex-row justify-content-center align-items-center">
+            <div class="d-flex mt-2 mb-2 border border-top-0 border-left-0 border-right-0 pb-3 flex-row justify-content-center align-items-center">
                 <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico">
                 <h3 class="ml-2">EDITOR'S PICK</h3>
             </div>
-                <div class="border">
+                <div>
                     <div class="row editor-pick">
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -759,7 +698,7 @@
                             </header>
                             <p class="ml-0">The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be difficult.</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -767,7 +706,7 @@
                             </header>
                             <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -775,7 +714,7 @@
                             </header>
                             <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -783,7 +722,7 @@
                             </header>
                             <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -791,7 +730,7 @@
                             </header>
                             <p class="ml-0">The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be difficult.</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -799,7 +738,7 @@
                             </header>
                             <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -807,7 +746,7 @@
                             </header>
                             <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
                         </article>
-                        <article class="w-100 border mb-2 col-md-6">
+                        <article class="w-100 mb-2 col-md-6">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f">
                             <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
                             <header class="w-100 mt-n4">
@@ -819,28 +758,9 @@
                 </div>
         </section>
         <section class="last-section row mt-2 m-0 h-100 border-success">
-            <!-- <article class="subscribe-art border border-danger col-sm-12 col-md-8 w-100 clearfix">
-                <div class="block-title mx-n3 red mb-1">Subscribe</div>
-                <div class="sub-left d-block d-md-initial mx-n3">
-                    <div class="fn image">
-                        <div class="mag-thumb prev">
-                            <img class="w-75 img-fluid" data-src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&amp;q=95&amp;f=2ea70c30e8f5467c1e61021ae9778138" class="lazyloaded" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&amp;q=95&amp;f=2ea70c30e8f5467c1e61021ae9778138">
-                        </div>
-                        <div class="mag-thumb current position-relative">
-                            <img class="w-75 img-fluid" data-src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&amp;q=95&amp;f=e9849b39e78f364f0f8bb410954aa063" class="lazyloaded" src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&amp;q=95&amp;f=e9849b39e78f364f0f8bb410954aa063">
-                        </div>
-                    </div>
-                    <div class="f12 info">
-                        <h4>Want to Read?</h4>
-                        <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-                        <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
-                        <button class="pelcro-subscribe-button">SUBSCRIBE</button>
-                    </div>
-                </div>
-            </article> -->
-            <article class="newsletter col-sm-12  col-md-12 border mb-3">
+            <article class="newsletter col-sm-12  col-md-12 mb-3">
                 <div class="block-title mx-n3 red">SUBSCRIBE</div>
-                <div class="row border email-subscription">
+                <div class="row email-subscription">
                     <div class="col-sm-12 col-md-5" id="nl-img-cont">
                         <div>
                             <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138">
@@ -855,17 +775,15 @@
                             <p>All Access + Weekly Delivery.
                                 Choose A Membership That's Perfect for You!</p>
                         </header>
-                        <!--<div class="fn image lazyloaded w-100 img-fluid border" data-bg="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5" style="background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5&quot) center center / cover no-repeat;" id="newsletter-img">
-                        </div>-->
                         <div class="f1 info w-100 border-danger justify-content-center text-center">
                             <button type="button" class="btn btn-danger mt-2 mb-2 ml-2 mr-2">SUBSCRIBE ></button>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="newsletter col-sm-12  col-md-12 border">
+            <article class="newsletter col-sm-12  col-md-12">
                 <header class="block-title mx-n3 red">NEWSLETTER</header>
-                <div class="d-flex mt-6 justify-content-center border">
+                <div class="d-flex mt-6 justify-content-center">
                     <div class="flex-column w-100 justify-content-center p-3">
                         <div id="newsletter-large-pic"><img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"></div>
                         <div>
