@@ -63,10 +63,6 @@
     width: 70%;
   }
   
-  picture {
-    display: inherit;
-  }
-  
   .form-inline .form-control {
     width: 64px;
   }
@@ -312,11 +308,19 @@
   @media screen and (min-width: 992px) {
     
     main {
-      margin-top: 10px;
+      margin-top: 200px;
     }
     
     #middle-navbar {
       display: block;
+    }
+
+    .weather-icon {
+      width: 40px;
+    }
+
+    picture {
+      display: inherit;
     }
 
       /*This is for the middle navbar*/
@@ -369,6 +373,11 @@
       position: -webkit-sticky;
       position: sticky;
       top: 0px;
+    }
+
+    div.weather {
+      position: relative;
+      top: -90px;
     }
 
     .api {
