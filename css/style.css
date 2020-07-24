@@ -83,10 +83,12 @@
     height: 850px;
   }
   
-  div.mag-thumb.current {
+  div.mag-thumb.current,
+  #newsletter-img-top {
     z-index: 6;
-    top: -490px;
+    top: -210px;
     left: 90px;
+    position: relative;
   }
   
   div.sub-left {
@@ -170,7 +172,7 @@
     width: 30px;
   }
   
-  #email-subscription {
+  .email-subscription {
     background-color: #f4f5f6;
   }
   
@@ -205,6 +207,10 @@
     top: 60px;
   }
 
+  #newsletter-img-top {
+    width: 177px;
+  }
+
   #footer-logo {
     width: 251px;
   }
@@ -213,6 +219,13 @@
     color: #656665;
   }
   
+  #nl-img-cont {
+    height: 180px;
+  }
+
+  #newsletter-large-pic {
+    display: none;
+  }
 
   @media screen and (max-width: 760px) {
     .feature-section,
