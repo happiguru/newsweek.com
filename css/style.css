@@ -404,7 +404,7 @@
       margin-top: 10%;
     }
 
-    div.mag-thumb {
+    div.mag-thumb.current {
       z-index: 6;
       top: -230px;
       left: 100px;
