@@ -71,6 +71,10 @@
     width: 64px;
   }
 
+  .email-subscription-top {
+    width: 75%;
+  }
+
   /* Main Section Starts here */
 
   main {
@@ -172,7 +176,8 @@
     width: 30px;
   }
   
-  .email-subscription {
+  .email-subscription,
+  .email-subscription-top {
     background-color: #f4f5f6;
   }
   
@@ -250,6 +255,7 @@
       position: -webkit-sticky;
       position: sticky;
       top: 4rem;
+      align-self: flex-start;
     }
 
     .feature-section {
@@ -257,6 +263,27 @@
       position: sticky;
       bottom: 1rem;
       align-self: flex-end;
+    }
+
+    .nl-img-cont {
+      width: 40%;
+    }
+
+    .email-subscription-top {
+      width: 40%;
+    }
+
+    .email-subscription header {
+      width: 59%;
+      float: right;
+    }
+
+    .email-subscription {
+      width: 100%;
+    }
+
+    .right-news-cont {
+      display:none;
     }
 
     #sticky-footer {
