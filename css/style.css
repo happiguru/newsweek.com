@@ -105,9 +105,7 @@
     border: 2px solid green;
   }
 
-  /* div.fn, */
     div.fn.image {
-      /* width: 35%; */
       height: 280px;
     }
 
@@ -121,6 +119,10 @@
       position: relative;
       z-index: 7;
       top: 20px;
+    }
+
+    div.subscribe-sect {
+      margin-top: 100px;
     }
 
   article {
@@ -159,14 +161,7 @@
   h3 {
     font-size: 24px;
     line-height: 24px;
-  }
-
-  /*.left-scroll {
-      overflow-x: hidden; 
-      overflow-y: auto; 
-      text-align:justify; 
-  }*/
-  
+  }  
   
   .image-thumbnail {
     width: 63px;
@@ -265,21 +260,22 @@
       align-self: flex-end;
     }
 
-    .nl-img-cont {
+    /* .nl-img-cont {
       width: 40%;
-    }
+    } */
 
-    .email-subscription-top {
+    /* .email-subscription-top {
       width: 40%;
-    }
+    } */
 
-    .email-subscription header {
+    /* .email-subscription header {
       width: 59%;
       float: right;
-    }
+    } */
 
     .email-subscription {
       width: 100%;
+      height: auto;
     }
 
     .right-news-cont {
