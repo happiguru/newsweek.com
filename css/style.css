@@ -227,7 +227,7 @@
     display: none;
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 768px) {
     .feature-section,
     .story-section,
     .debate-section {
@@ -241,6 +241,23 @@
       position: sticky;
       top: 0px;
     } */
+
+    .feature-cont {
+      align-items: flex-start;
+    }
+
+    .story-section {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 4rem;
+    }
+
+    .feature-section {
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 1rem;
+      align-self: flex-end;
+    }
 
     #sticky-footer {
       margin: 0;
@@ -258,7 +275,7 @@
       margin-right: auto;
     }
 
-    
+
   }
   
   @media screen and (max-width: 991px) {
