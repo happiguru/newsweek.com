@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link href="cssreset" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/cbdf2b0f0e.js" crossorigin="anonymous"></script>
         <title>News Week Magazine</title>
     </head>
     <body>
-
-    <div class="container-fluid header-main border clearfix top-header">
-                <!-- Mobile View-->
-        <nav class="navbar mobile-navbar p-0 clearfix navbar-expand-sm navbar-expand-md fixed-top d-lg-none navbar-light">
+        <div class="container-fluid header-main border clearfix top-header">
+            <!-- Mobile View-->
+            <nav class="navbar mobile-navbar p-0 clearfix navbar-expand-sm navbar-expand-md fixed-top d-lg-none navbar-light">
                 <div class="w-30 p-0 h-auto float-left">
                     <a class="navbar-brand pt-0 pl-3 text-white" href="#">Newsweek</a>
                 </div>
@@ -23,774 +22,447 @@
                         <button class="btn btn-sm text-white d-none d-md-none d-lg-block">Login</button>
                         <button class="btn btn-sm d-lg-none"><i class="far fa-user text-white"></i></button>
                         <button class="btn btn-sm bg-warning rounded-pill">Subscribe</button>
-                        <button class="navbar-toggler btn-sm d-lg-none border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button
+                            class="navbar-toggler btn-sm d-lg-none border-0"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </ul>
                 </div>
-        </nav>
-        <!-- Mobile View Ends Here-->
-        <header class="container-fluid header-container d-none d-lg-block">
-            <div class="page-header d-inline position-absolute">
-                <h1 class="logo-text text-center text-white display-1">Newsweek</h1>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6 mb-2 mt-5 p-0"><date class="text-white">Mon, Jul 20, 2020</date></div>
-                    <div class="col-sm-6 mb-2 mt-5 p-1 d-flex justify-content-end">
-                        <button class="btn text-white">Login</button>
-                        <button class="btn bg-warning rounded-pill">Subscribe</button>
+            </nav>
+            <!-- Mobile View Ends Here-->
+            <header class="container-fluid header-container d-none d-lg-block">
+                <div class="page-header d-inline position-absolute">
+                    <h1 class="logo-text text-center text-white display-1">Newsweek</h1>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 mb-2 mt-5 p-0"><date class="text-white">Mon, Jul 20, 2020</date></div>
+                        <div class="col-sm-6 mb-2 mt-5 p-1 d-flex justify-content-end">
+                            <button class="btn text-white">Login</button>
+                            <button class="btn bg-warning rounded-pill">Subscribe</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container-fluid weather">
-                <div class="api">
-                    <a href="/weather" title="Weather" class="weather-cwidget ml-n3 text-white">
-                        <picture style="display: inherit;">
-                            <source srcset="https://g.newsweek.com/img/weather/34.webp" type="image/webp" />
-                            <img src="https://g.newsweek.com/img/weather/34.png" alt="Fair" class="weather-icon" />
-                        </picture>
-                        &nbsp;&nbsp;37°
-                        <span class="weather-country">
-                            Sharjah, AE&nbsp;&nbsp;
+                <div class="container-fluid weather">
+                    <div class="api">
+                        <a href="/weather" title="Weather" class="weather-cwidget ml-n3 text-white">
                             <picture style="display: inherit;">
-                                <source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
-                                <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" />
+                                <source srcset="https://g.newsweek.com/img/weather/34.webp" type="image/webp" />
+                                <img src="https://g.newsweek.com/img/weather/34.png" alt="Fair" class="weather-icon" />
                             </picture>
-                        </span>
-                    </a>
+                            &nbsp;&nbsp;37°
+                            <span class="weather-country">
+                                Sharjah, AE&nbsp;&nbsp;
+                                <picture style="display: inherit;">
+                                    <source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
+                                    <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" />
+                                </picture>
+                            </span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <nav class="nav-navigation border border-top-0 border-left-0 border-right-0" id="middle-navbars">
-            <ul class="navbar-nav1">
-                <li class="nav-item1 active">
-                    <a class="nav-link1" href="https://www.newsweek.com/us" title="">U.S. <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/world" title="">World</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/business" title="">Business</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="" id="nav-link-long">Tech &amp; Science</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/culture" title="">Culture</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/sports" title="">Sports</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/health" title="">Health</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/the-debate" title="">The Debate</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/vantage" title="">Vantage</a></li>
-                <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/weather" title="">Weather</a></li>
-            </ul>
-            <form class="form-field form-inline">
-                <input class="search-input form-control border-0" type="search" placeholder="Search" />
-                <button class="search-btn btn" type="submit"><i class="fas fa-search"></i></button>
-            </form>
-        </nav>
+            </header>
+            <nav class="nav-navigation border border-top-0 border-left-0 border-right-0" id="middle-navbars">
+                <ul class="navbar-nav1">
+                    <li class="nav-item1 active">
+                        <a class="nav-link1" href="https://www.newsweek.com/us" title="">U.S. <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/world" title="">World</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/business" title="">Business</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="" id="nav-link-long">Tech &amp; Science</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/culture" title="">Culture</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/sports" title="">Sports</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/health" title="">Health</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/the-debate" title="">The Debate</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/vantage" title="">Vantage</a></li>
+                    <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/weather" title="">Weather</a></li>
+                </ul>
+                <form class="form-field form-inline">
+                    <input class="search-input form-control border-0" type="search" placeholder="Search" />
+                    <button class="search-btn btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </nav>
 
-        <nav class="navbar navia border border-top-0 border-left-0 border-right-0">
-            <ul class="nav">
-                <li class="nav-item"><strong class="nav-link">Trending</strong></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/donald-trump">Donald Trump</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/joe-biden">Joe Biden</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/china">China</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/coronavirus">Coronavirus</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/2020-election">2020 Election</a></li>
-            </ul>
-        </nav>
-    </div>
-       
-    <main class="container-fluid position-relative mb-5">
-        <section class="row">
-            <div class="col-xs-12 col-md-12 col-lg-8 col-xl-9">
-                <div class="row d-md-flex feature-cont">
-                    <div class="col-xs-12 col-md-6 col-lg-5 col-xl-5 feature-section order-2 order-sm-2 order-md-1 left-scroll">
-                        <h6 class="ml-0"><strong>FEATURED STORIES</strong></h6>
-                        <article class="w-100 mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333" title="" class="text-dark">
-                                        <strong>Smithsonian Race Guidelines: Rational Thinking & Hard Work Are White Values</strong>
-                                    </a>
-                                </h3>
-                            </header>
-                            <p class="ml-0">A graphic displayed in the guidelines, entitled "Aspects and Assumptions of Whiteness in the United States," declares that rational thinking and hard work, among others, are white values.</p>
-                        </article>
-                        <article class="w-100 mb-2">
-                            <div id="background-left-a w-100">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/tech-science">CULTURE</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/twitter-hack-bitcoin-scam-1518567" title="" class="text-dark">
-                                        <strong>Twitter Says 130 Accounts Targeted in Hack, Status of DMs Unclear</a></strong></h3>
-                            </header>
-                            <p class="ml-0">
-                                The social network's security team is continuing to analyze the scope of the cyberattack believed to have exploited an internal system accessed by a "coordinated social engineering attack."
-                            </p>
-                        </article>
-                        <article class="w-100 mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" title="" class="text-dark">
-                                        <strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined' </strong></a>
-                                </h3>
-                            </header>
-                            <p class="ml-0">The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
-                        </article>
-                        <article class="w-100 mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/culture">CULTURE</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/tiktok-who-meet-triller-app-looking-unseat-king-video-1518467" title="" class="text-dark">
-                                        <strong>TikTok Who? Meet Triller, the App Looking to Unseat The King of Video</strong></a></h3>
-                            </header>
-                            <p class="ml-0">Ryan Kavanaugh at Triller, told "Newsweek" all about the app that's getting millions of new followers a day.</p>
-                        </article>
-                        <article class="w-100 mb-2">
-                            <div id="background-left-a w-100 border">
-                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0">
-                                    <a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="" class="text-dark">
-                                        <strong>House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020</strong></a></h3>
-                            </header>
-                            <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                        </article>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-7 story-section order-1 order-sm-1 order-md-1 align-items-start">
-                        <h6><strong>TOP STORY</strong></h6>
-                        <article class="w-100">
-                            <div class="w-100 border" id="background-center-a">
-                                <img src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" class="img-fluid">
-                            </div>
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header>
-                                <h3><a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" title="" class="text-dark">
-                                    <strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong></a></h3>
-                            </header>
-                            <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
-                        </article>
-                        <div class="more-stories d-none d-md-flex flex-column align-items-start">
-                            <article class="story-grid order-1">
-                                <h5>MY TURN</h5>
-                                <div class="row">
-                                    <section class="col-4">
-                                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609812/lara-logan-egypt-sexual-assault.png?w=397&h=397&f=64520efc71bd34f32eb9f32334aa9244"/>
-                                        <p><a href="https://www.newsweek.com/lara-logan-me-too-egyptian-women-turning-tide-1517971">In a New 'Me Too' Moment, Brave Women in Egypt are Turning the Tide </a></p>
-                                    </section>
-                                    <section class="col-4">
-                                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610087/ice-students-immigration-pandemic-coronavirus.jpg?w=397&h=397&f=36d039f2cccbd9fa0ba8f2988f8c4ad4"/>
-                                        <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
-                                    </section>
-                                    <section class="col-4">
-                                        <img class="w-100 img-fluid" src="	https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6"/>
-                                        <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
-                                    </section>
+            <nav class="navbar navia border border-top-0 border-left-0 border-right-0">
+                <ul class="nav">
+                    <li class="nav-item"><strong class="nav-link">Trending</strong></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/donald-trump">Donald Trump</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/joe-biden">Joe Biden</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/china">China</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/coronavirus">Coronavirus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/2020-election">2020 Election</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="container-fluid position-relative mb-5">
+            <section class="row">
+                <div class="col-xs-12 col-md-12 col-lg-8 col-xl-9">
+                    <div class="row d-md-flex feature-cont">
+                        <div class="col-xs-12 col-md-6 col-lg-5 col-xl-5 feature-section order-2 order-sm-2 order-md-1 left-scroll">
+                            <h6 class="ml-0"><strong>FEATURED STORIES</strong></h6>
+                            <article class="w-100 mb-2">
+                                <div id="background-left-a w-100 border">
+                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260" alt="t" />
                                 </div>
+                                <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
+                                <header class="w-100 mt-n4">
+                                    <h3 class="ml-0">
+                                        <a href="https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333" title="" class="text-dark">
+                                            <strong>Smithsonian Race Guidelines: Rational Thinking & Hard Work Are White Values</strong>
+                                        </a>
+                                    </h3>
+                                </header>
+                                <p class="ml-0">A graphic displayed in the guidelines, entitled "Aspects and Assumptions of Whiteness in the United States," declares that rational thinking and hard work, among others, are white values.</p>
                             </article>
-                            <article class="story-grid order-2">
-                                <h5>CULTURE & TRAVEL</h5>
-                                <div class="row">
-                                    <section class="col-4">
-                                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a"/>
-                                        <p><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
-                                    </section>
-                                    <section class="col-4">
-                                        <img src="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54" class="w-100 img-fluid" />
-                                        <p><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
-                                    </section>
-                                    <section class="col-4">
-                                        <img src="https://d.newsweek.com/en/full/1606088/nevada.jpg?w=397&h=397&f=3b43a07ccaccf6ac6528a9e7fefc9b54" class="w-100 img-fluid" />
-                                        <p>
-                                            <a href="https://www.newsweek.com/ufo-towers-tsunami-clocks-every-us-states-most-unique-roadside-attraction-1515144">
-                                                UFO Towers to Tsunami Clocks, Every State's Most Unique Roadside Attraction
-                                            </a>
-                                        </p>
-                                    </section>
+                            <article class="w-100 mb-2">
+                                <div id="background-left-a w-100">
+                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610569/jack-dorsey.jpg?w=397&h=265&q=90&f=d39ae01234dba01883e50e2543df6f4f" alt="t" />
                                 </div>
+                                <div class="caption"><a href="https://www.newsweek.com/tech-science">CULTURE</a></div>
+                                <header class="w-100 mt-n4">
+                                    <h3 class="ml-0">
+                                        <a href="https://www.newsweek.com/twitter-hack-bitcoin-scam-1518567" title="" class="text-dark"> <strong>Twitter Says 130 Accounts Targeted in Hack, Status of DMs Unclear</strong></a>
+                                    </h3>
+                                </header>
+                                <p class="ml-0">
+                                    The social network's security team is continuing to analyze the scope of the cyberattack believed to have exploited an internal system accessed by a "coordinated social engineering attack."
+                                </p>
                             </article>
-                            <div class="more-stories1 d-flex flex-column order-3 align-items-start">
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/joe-biden-hillary-clinton-polling-fundraising-donald-trump-election-1518586" class="text-dark"><strong>Biden Is Polling Better Than Clinton Was—and Has Five Times the Cash Too</strong></a></h6>
-                                    <p>Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
+                            <article class="w-100 mb-2">
+                                <div id="background-left-a w-100 border">
+                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=397&h=265&q=90&f=9bc5889a698e930612702f5b654690c9" alt="t" />
                                 </div>
+                                <div class="caption"><a href="https://www.newsweek.com/tech-science">US</a></div>
+                                <header class="w-100 mt-n4">
+                                    <h3 class="ml-0">
+                                        <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" title="" class="text-dark">
+                                            <strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined' </strong>
+                                        </a>
+                                    </h3>
+                                </header>
+                                <p class="ml-0">The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
                             </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" class="text-dark"><strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong> </a></h6>
-                                    <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
+                            <article class="w-100 mb-2">
+                                <div id="background-left-a w-100 border">
+                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1576159/iphone.jpg?w=397&h=265&q=90&f=ae8d97ee81b072f9dff20969f4089e03" alt="t" />
                                 </div>
+                                <div class="caption"><a href="https://www.newsweek.com/culture">CULTURE</a></div>
+                                <header class="w-100 mt-n4">
+                                    <h3 class="ml-0">
+                                        <a href="https://www.newsweek.com/tiktok-who-meet-triller-app-looking-unseat-king-video-1518467" title="" class="text-dark">
+                                            <strong>TikTok Who? Meet Triller, the App Looking to Unseat The King of Video</strong>
+                                        </a>
+                                    </h3>
+                                </header>
+                                <p class="ml-0">Ryan Kavanaugh at Triller, told "Newsweek" all about the app that's getting millions of new followers a day.</p>
                             </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/democrats-could-pick-20-house-seats-most-districts-trump-won-2016-1518645" class="text-dark"><strong>Democrats Could Pick up 20 House Seats, Most in Districts Trump Won in 2016</strong></a></h6>
-                                    <p>Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
+                            <article class="w-100 mb-2">
+                                <div id="background-left-a w-100 border">
+                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610532/house-minority-leader-kevin-mccarthy.jpg?w=397&h=265&q=90&f=a2d13c7372fd3d222866ae61de2bb167" alt="t" />
                                 </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/coronavirus-deaths-surge-17-states-trump-claims-fatalities-down-tenfold-1518642" class="text-dark"><strong>Coronavirus Deaths Surge in 17 States as Trump Claims Fatalities Down</strong></a></h6>
-                                    <p>
-                                        Several states across the U.S. have seen a rise in coronavirus-related deaths, since June 1, while President Donald Trump recently made the outdated claim that fatalities from the virus were down
-                                        "tenfold."
-                                    </p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/record-coronavirus-deaths-reported-texas-florida-1518617" class="text-dark"><strong>Record Coronavirus Deaths Reported in Texas and Florida</strong></a></h6>
-                                    <p>The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3">
-                                    <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" />
-                                </div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/iran-threatens-israel-us-lying-killing-advisors-syria-1518536" class="text-dark"><strong>Iran Threatens Israel, U.S. for 'Lying' About Killing Advisers in Syria</strong></a></h6>
-                                    <p>Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" class="text-dark"><strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined'</strong></a></h6>
-                                    <p>The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/most-americans-would-rather-control-covid-19-spread-protect-economy-poll-1518601" class="text-dark"><strong>Most Americans Would Rather Control COVID-19 Spread Than Protect Economy</strong></a></h6>
-                                    <p>Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/stimulus-loans-small-businesses-should-forgiven-mnuchin-says-1518706" class="text-dark"><strong>Stimulus Loans for Small Businesses Should be Forgiven, Mnuchin Says</strong></a></h6>
-                                    <p>
-                                        The Treasury secretary said that Congress should completely forgive the smaller loans given to businesses to keep their lights on amid the economic downturn and that loans should be extended for
-                                        hospitality and travel industries, as well.
-                                    </p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark">Inside Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</a></h6>
-                                    <p>While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6>
-                                        <a href="https://www.newsweek.com/youtuber-spreads-coronavirus-while-shooting-video-japans-most-populous-island-1518557" class="text-dark"><strong>YouTuber Spreads Coronavirus While Filming on Japan's Most Populous Island</strong></a>
-                                    </h6>
-                                    <p>The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
-                                </div>
-                            </article>
-                            <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" /></div>
-                                <div class="ml-0 mt-3">
-                                    <h6><a href="https://www.newsweek.com/world-bank-staff-have-new-goal-boost-incomes-their-assigned-countries-1518376" class="text-dark"><strong>World Bank Staff Have a New Goal: Boost Incomes in Their Assigned Countries</strong></a></h6>
-                                    <p>As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
-                                </div>
+                                <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                                <header class="w-100 mt-n4">
+                                    <h3 class="ml-0">
+                                        <a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" title="" class="text-dark"> <strong>House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020</strong></a>
+                                    </h3>
+                                </header>
+                                <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                             </article>
                         </div>
+                        <div class="col-sm-12 col-md-6 col-lg-7 story-section order-1 order-sm-1 order-md-1 align-items-start">
+                            <h6><strong>TOP STORY</strong></h6>
+                            <article class="w-100">
+                                <div class="w-100 border" id="background-center-a">
+                                    <img src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" class="img-fluid" />
+                                </div>
+                                <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                                <header>
+                                    <h3>
+                                        <a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" title="" class="text-dark">
+                                            <strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong>
+                                        </a>
+                                    </h3>
+                                </header>
+                                <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
+                            </article>
+                            <div class="more-stories d-none d-md-flex flex-column align-items-start">
+                                <article class="story-grid order-1">
+                                    <h5>MY TURN</h5>
+                                    <div class="row">
+                                        <section class="col-4">
+                                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609812/lara-logan-egypt-sexual-assault.png?w=397&h=397&f=64520efc71bd34f32eb9f32334aa9244" />
+                                            <p><a href="https://www.newsweek.com/lara-logan-me-too-egyptian-women-turning-tide-1517971">In a New 'Me Too' Moment, Brave Women in Egypt are Turning the Tide </a></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610087/ice-students-immigration-pandemic-coronavirus.jpg?w=397&h=397&f=36d039f2cccbd9fa0ba8f2988f8c4ad4" />
+                                            <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <img class="w-100 img-fluid" src="	https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6" />
+                                            <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
+                                        </section>
+                                    </div>
+                                </article>
+                                <article class="story-grid order-2">
+                                    <h5>CULTURE & TRAVEL</h5>
+                                    <div class="row">
+                                        <section class="col-4">
+                                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a" />
+                                            <p><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <img src="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54" class="w-100 img-fluid" />
+                                            <p><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <img src="https://d.newsweek.com/en/full/1606088/nevada.jpg?w=397&h=397&f=3b43a07ccaccf6ac6528a9e7fefc9b54" class="w-100 img-fluid" />
+                                            <p>
+                                                <a href="https://www.newsweek.com/ufo-towers-tsunami-clocks-every-us-states-most-unique-roadside-attraction-1515144">
+                                                    UFO Towers to Tsunami Clocks, Every State's Most Unique Roadside Attraction
+                                                </a>
+                                            </p>
+                                        </section>
+                                    </div>
+                                </article>
+                                <div class="more-stories1 d-flex flex-column order-3 align-items-start">
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/joe-biden-hillary-clinton-polling-fundraising-donald-trump-election-1518586" class="text-dark">
+                                                    <strong>Biden Is Polling Better Than Clinton Was—and Has Five Times the Cash Too</strong>
+                                                </a>
+                                            </h6>
+                                            <p>Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" class="text-dark">
+                                                    <strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong>
+                                                </a>
+                                            </h6>
+                                            <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/democrats-could-pick-20-house-seats-most-districts-trump-won-2016-1518645" class="text-dark">
+                                                    <strong>Democrats Could Pick up 20 House Seats, Most in Districts Trump Won in 2016</strong>
+                                                </a>
+                                            </h6>
+                                            <p>Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/coronavirus-deaths-surge-17-states-trump-claims-fatalities-down-tenfold-1518642" class="text-dark">
+                                                    <strong>Coronavirus Deaths Surge in 17 States as Trump Claims Fatalities Down</strong>
+                                                </a>
+                                            </h6>
+                                            <p>
+                                                Several states across the U.S. have seen a rise in coronavirus-related deaths, since June 1, while President Donald Trump recently made the outdated claim that fatalities from the virus were
+                                                down "tenfold."
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/record-coronavirus-deaths-reported-texas-florida-1518617" class="text-dark"><strong>Record Coronavirus Deaths Reported in Texas and Florida</strong></a>
+                                            </h6>
+                                            <p>The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3">
+                                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" />
+                                        </div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/iran-threatens-israel-us-lying-killing-advisors-syria-1518536" class="text-dark">
+                                                    <strong>Iran Threatens Israel, U.S. for 'Lying' About Killing Advisers in Syria</strong>
+                                                </a>
+                                            </h6>
+                                            <p>Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" class="text-dark">
+                                                    <strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined'</strong>
+                                                </a>
+                                            </h6>
+                                            <p>The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/most-americans-would-rather-control-covid-19-spread-protect-economy-poll-1518601" class="text-dark">
+                                                    <strong>Most Americans Would Rather Control COVID-19 Spread Than Protect Economy</strong>
+                                                </a>
+                                            </h6>
+                                            <p>Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/stimulus-loans-small-businesses-should-forgiven-mnuchin-says-1518706" class="text-dark">
+                                                    <strong>Stimulus Loans for Small Businesses Should be Forgiven, Mnuchin Says</strong>
+                                                </a>
+                                            </h6>
+                                            <p>
+                                                The Treasury secretary said that Congress should completely forgive the smaller loans given to businesses to keep their lights on amid the economic downturn and that loans should be extended
+                                                for hospitality and travel industries, as well.
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark">Inside Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</a>
+                                            </h6>
+                                            <p>While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/youtuber-spreads-coronavirus-while-shooting-video-japans-most-populous-island-1518557" class="text-dark">
+                                                    <strong>YouTuber Spreads Coronavirus While Filming on Japan's Most Populous Island</strong>
+                                                </a>
+                                            </h6>
+                                            <p>The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" /></div>
+                                        <div class="ml-0 mt-3">
+                                            <h6>
+                                                <a href="https://www.newsweek.com/world-bank-staff-have-new-goal-boost-incomes-their-assigned-countries-1518376" class="text-dark">
+                                                    <strong>World Bank Staff Have a New Goal: Boost Incomes in Their Assigned Countries</strong>
+                                                </a>
+                                            </h6>
+                                            <p>As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <aside class="col-xs-12 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section">
-                <h6><strong>THE DEBATE</strong></h6>
-                <div class="ml-0 flex-column border border-left-0 border-right-0 border-secondary justify-content-center">
-                    <article class="d-flex">
-                        <div class="mt-3 image-thumbnail"><img src="https://d.newsweek.com/en/full/1603199/joel-l-daniels.png?w=150&h=150&f=d12a7dd02182bbc8bcc9cade519ce978" class="image-thumbnail" /></div>
+                <aside class="col-xs-12 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section">
+                    <h6><strong>THE DEBATE</strong></h6>
+                    <div class="ml-0 flex-column border border-left-0 border-right-0 border-secondary justify-content-center">
+                        <article class="d-flex">
+                            <div class="mt-3 image-thumbnail"><img src="https://d.newsweek.com/en/full/1603199/joel-l-daniels.png?w=150&h=150&f=d12a7dd02182bbc8bcc9cade519ce978" class="image-thumbnail" /></div>
+                            <div class="ml-3 mt-3">
+                                <h6>
+                                    <a href="https://www.newsweek.com/america-was-conceived-racism-opinion-1518072" class="text-dark"><strong>America Was Conceived in Racism</strong></a>
+                                </h6>
+                                <p class="small">BY <strong href="#">JOEL L. DANIELS</strong></p>
+                            </div>
+                        </article>
+                        <aside class="justify-content-center position-relative">
+                            <div class="border border-left-0 border-right-0 horizontal-line position-absolute w-100"></div>
+                            <img src="images/vs.svg" alt="versus" class="svg-image ml-6 d-block mx-auto" id="versus-logo" />
+                        </aside>
+                        <article class="d-flex">
+                            <div class="ml-0 mt-3">
+                                <h6>
+                                    <a href="https://www.newsweek.com/america-was-not-conceived-racism-opinion-1518091" class="text-dark"><strong>America Was Not Conceived in Racism</strong></a>
+                                </h6>
+                                <p class="small">BY <strong href="#">RYAN P. WILLIAMS</strong></p>
+                            </div>
+                            <div class="mt-3 mb-3"><img src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d" class="image-thumbnail" /></div>
+                        </article>
+                    </div>
+                    <h6 class="mt-3">OPINION</h6>
+                    <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1591477/hillel-c-neuer.png?w=63&h=63&f=c3bf299859aeb2eccddfee08d6adb51e" /></div>
                         <div class="ml-3 mt-3">
                             <h6>
-                                <a href="https://www.newsweek.com/america-was-conceived-racism-opinion-1518072" class="text-dark"><strong>America Was Conceived in Racism</strong></a>
+                                <a href="https://www.newsweek.com/china-free-speech-united-nations-irene-khan-amnesty-1518604" class="text-dark"><strong>Why China Picked Amnesty's Ex-Chief as U.N. Free Speech Monitor</strong></a>
                             </h6>
-                            <p class="small">BY <strong href="#">JOEL L. DANIELS</strong></p>
+                            <p class="small"><strong href="#">BY HILLEL C. NEUER</strong></p>
                         </div>
                     </article>
-                    <aside class="justify-content-center position-relative">
-                        <div class="border border-left-0 border-right-0 horizontal-line position-absolute w-100"></div>
-                        <img src="images/vs.svg" alt="versus" class="svg-image ml-6 d-block mx-auto" id="versus-logo" />
-                    </aside>
-                    <article class="d-flex">
-                        <div class="ml-0 mt-3">
+                    <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1597913/yishai-fleisher.png?w=63&h=63&f=f8eaaffad5c71bdaa09f7daf4f623991" /></div>
+                        <div class="ml-3 mt-3">
                             <h6>
-                                <a href="https://www.newsweek.com/america-was-not-conceived-racism-opinion-1518091" class="text-dark"><strong>America Was Not Conceived in Racism</strong></a>
+                                <a href="https://www.newsweek.com/jewish-state-beats-peter-beinarts-bi-nationalism-opinion-1518482" class="text-dark"><strong>A Jewish State Beats Peter Beinart's Bi-Nationalism</strong></a>
                             </h6>
-                            <p class="small">BY <strong href="#">RYAN P. WILLIAMS</strong></p>
+                            <p class="small"><strong href="#">BY YISHAI FLEISHER</strong></p>
                         </div>
-                        <div class="mt-3 mb-3"><img src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d" class="image-thumbnail" /></div>
                     </article>
-                </div>
-                <h6 class="mt-3">OPINION</h6>
-                <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1591477/hillel-c-neuer.png?w=63&h=63&f=c3bf299859aeb2eccddfee08d6adb51e" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/china-free-speech-united-nations-irene-khan-amnesty-1518604" class="text-dark"><strong>Why China Picked Amnesty's Ex-Chief as U.N. Free Speech Monitor</strong></a>
-                        </h6>
-                        <p class="small"><strong href="#">BY HILLEL C. NEUER</strong></p>
-                    </div>
-                </article>
-                <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1597913/yishai-fleisher.png?w=63&h=63&f=f8eaaffad5c71bdaa09f7daf4f623991" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/jewish-state-beats-peter-beinarts-bi-nationalism-opinion-1518482" class="text-dark"><strong>A Jewish State Beats Peter Beinart's Bi-Nationalism</strong></a>
-                        </h6>
-                        <p class="small"><strong href="#">BY YISHAI FLEISHER</strong></p>
-                    </div>
-                </article>
-                <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&h=63&f=f18b9a7364da071493072861d8b4448f" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/covid-economy-it-heading-straight-dark-place-opinion-1517434" class="text-dark"><strong>The COVID Economy: Is It Heading Straight to a Dark Place?</strong></a>
-                        </h6>
-                        <p class="small"><strong href="#">BY HANK GILMAN</strong></p>
-                    </div>
-                </article>
-                <article class="d-flex border pb-2 border-top-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610773/asad-m-khan.png?w=63&h=63&f=de35a1e215042e7dd549dcb68a04ab1e" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/america-values-moral-leadership-jammu-kashmir-1518712" class="text-dark"><strong>Kashmir Looks to America for Moral Leadership</strong></a>
-                        </h6>
-                        <p class="small"><strong href="#">BY ASAD M. KHAN</strong></p>
-                    </div>
-                </article>
-                <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1598068/kelsey-baker.png?w=63&h=63&f=43880c72e8f62d989abb32aba0d5392f" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/military-does-try-prevent-sexual-violence-its-just-too-late-opinion-1518731" class="text-dark">
-                                <strong>The Military Does Try to Prevent Sexual Violence. It's Just Too Late</strong>
-                            </a>
-                        </h6>
-                        <p class="small"><strong href="#">BY KELSEY BAKER</strong></p>
-                    </div>
-                </article>
-                <article class="d-flex mb-4">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610783/judith-derrick.png?w=63&h=63&f=ed50fb7d3a8e51c8ac2f5f33d33612ea" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/black-lives-matter-money-budgets-politicians-bronx-1518722" class="text-dark"><strong>Politicians Who Say Black Lives Matter: Put Your Budget Where Your Mouth Is</strong></a>
-                        </h6>
-                        <p class="small"><strong href="#">BY JUDITH K. DIMON AND DERRICK H. LEWIS</strong></p>
-                    </div>
-                </article>
-                <div class="d-flex mt-6 justify-content-center">
-                    <div class="flex-column justify-content-center p-3 email-subscription-top">
-                        <div class="d-flex">
-                            <div class="mt-2"><img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" /></div>
-                            <span class="ml-1"><strong>START YOUR DAY WITH OUR TOP 5 ARTICLES</strong></span>
+                    <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&h=63&f=f18b9a7364da071493072861d8b4448f" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/covid-economy-it-heading-straight-dark-place-opinion-1517434" class="text-dark"><strong>The COVID Economy: Is It Heading Straight to a Dark Place?</strong></a>
+                            </h6>
+                            <p class="small"><strong href="#">BY HANK GILMAN</strong></p>
                         </div>
-                        <div class="mt-3">
-                            <input type="text" class="form-text form-control" placeholder="Email address" />
-                            <input type="submit" class="form-submit btn btn-primary btn-block btn-danger mt-3" value="FREE SIGN UP" />
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3 right-news-cont">
-                    <article class="col-md-6 col-lg-12 w-100 mb-2">
-                        <div class="w-100 border" id="background-center-a">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
-                        </div>
-                        <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                        <header class="w-100 mt-2">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                        </header>
-                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                     </article>
-                    <article class="col-md-6 col-lg-12 w-100 mb-2">
-                        <div class="w-100 border" id="background-center-a">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
+                    <article class="d-flex border pb-2 border-top-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610773/asad-m-khan.png?w=63&h=63&f=de35a1e215042e7dd549dcb68a04ab1e" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/america-values-moral-leadership-jammu-kashmir-1518712" class="text-dark"><strong>Kashmir Looks to America for Moral Leadership</strong></a>
+                            </h6>
+                            <p class="small"><strong href="#">BY ASAD M. KHAN</strong></p>
                         </div>
-                        <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                        <header class="w-100 mt-n4">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                        </header>
-                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                     </article>
-                    <article class="col-md-6 col-lg-12 w-100 mb-2">
-                        <div class="w-100 border" id="background-center-a">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a">
-                        </div>
-                        <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                        <header class="w-100 mt-n4">
-                            <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
-                        </header>
-                        <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
-                    </article>
-                </div>
-            </aside>
-        </section>
-        <section class="border mt-4">
-            <div class="w-100 d-md-none d-flex flex-column">
-                <article class="story-grid order-1">
-                    <h5>MY TURN</h5>
-                    <div class="row">
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609812/lara-logan-egypt-sexual-assault.png?w=397&h=397&f=64520efc71bd34f32eb9f32334aa9244"/>
-                            <p><a href="https://www.newsweek.com/lara-logan-me-too-egyptian-women-turning-tide-1517971">In a New 'Me Too' Moment, Brave Women in Egypt are Turning the Tide </a></p>
-                        </section>
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610087/ice-students-immigration-pandemic-coronavirus.jpg?w=397&h=397&f=36d039f2cccbd9fa0ba8f2988f8c4ad4"/>
-                            <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
-                        </section>
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6"/>
-                            <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
-                        </section>
-                    </div>
-                </article>
-                <article class="story-grid order-2">
-                    <h5>CULTURE & TRAVEL</h5>
-                    <div class="row">
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a"/>
-                            <p><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
-                        </section>
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54"/>
-                            <p><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
-                        </section>
-                        <section class="col-sm-12 col-md-4">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1606088/nevada.jpg?w=397&h=397&f=3b43a07ccaccf6ac6528a9e7fefc9b54"/>
-                            <p>
-                                <a href="https://www.newsweek.com/ufo-towers-tsunami-clocks-every-us-states-most-unique-roadside-attraction-1515144">
-                                    UFO Towers to Tsunami Clocks, Every State's Most Unique Roadside Attraction
+                    <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1598068/kelsey-baker.png?w=63&h=63&f=43880c72e8f62d989abb32aba0d5392f" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/military-does-try-prevent-sexual-violence-its-just-too-late-opinion-1518731" class="text-dark">
+                                    <strong>The Military Does Try to Prevent Sexual Violence. It's Just Too Late</strong>
                                 </a>
-                            </p>
-                        </section>
-                    </div>
-                </article>
-                <div class="block-title">
-                    <a class="text-white" href=" ">MORE STORIES</a></div>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/joe-biden-hillary-clinton-polling-fundraising-donald-trump-election-1518586" class="text-dark">
-                                <strong>Biden Is Polling Better Than Clinton Was—and Has Five Times the Cash Too</strong>
-                            </a>
-                        </h6>
-                        <p>Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" class="text-dark"><strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong> </a></h6>
-                        <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/democrats-could-pick-20-house-seats-most-districts-trump-won-2016-1518645" class="text-dark"><strong>Democrats Could Pick up 20 House Seats, Most in Districts Trump Won in 2016</strong></a></h6>
-                        <p>Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/coronavirus-deaths-surge-17-states-trump-claims-fatalities-down-tenfold-1518642" class="text-dark"><strong>Coronavirus Deaths Surge in 17 States as Trump Claims Fatalities Down</strong></a></h6>
-                        <p>
-                            Several states across the U.S. have seen a rise in coronavirus-related deaths, since June 1, while President Donald Trump recently made the outdated claim that fatalities from the virus were down
-                            "tenfold."
-                        </p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/record-coronavirus-deaths-reported-texas-florida-1518617" class="text-dark"><strong>Record Coronavirus Deaths Reported in Texas and Florida</strong></a></h6>
-                        <p>The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3">
-                        <img src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" />
-                    </div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/iran-threatens-israel-us-lying-killing-advisors-syria-1518536" class="text-dark"><strong>Iran Threatens Israel, U.S. for 'Lying' About Killing Advisers in Syria</strong></a></h6>
-                        <p>Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" class="text-dark"><strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined'</strong></a></h6>
-                        <p>The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/most-americans-would-rather-control-covid-19-spread-protect-economy-poll-1518601" class="text-dark"><strong>Most Americans Would Rather Control COVID-19 Spread Than Protect Economy</strong></a></h6>
-                        <p>Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/stimulus-loans-small-businesses-should-forgiven-mnuchin-says-1518706" class="text-dark"><strong>Stimulus Loans for Small Businesses Should be Forgiven, Mnuchin Says</strong></a></h6>
-                        <p>
-                            The Treasury secretary said that Congress should completely forgive the smaller loans given to businesses to keep their lights on amid the economic downturn and that loans should be extended for
-                            hospitality and travel industries, as well.
-                        </p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark">Inside Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</a></h6>
-                        <p>While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6>
-                            <a href="https://www.newsweek.com/youtuber-spreads-coronavirus-while-shooting-video-japans-most-populous-island-1518557" class="text-dark"><strong>YouTuber Spreads Coronavirus While Filming on Japan's Most Populous Island</strong></a>
-                        </h6>
-                        <p>The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
-                    </div>
-                </article>
-                <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                    <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" /></div>
-                    <div class="ml-3 mt-3">
-                        <h6><a href="https://www.newsweek.com/world-bank-staff-have-new-goal-boost-incomes-their-assigned-countries-1518376" class="text-dark"><strong>World Bank Staff Have a New Goal: Boost Incomes in Their Assigned Countries</strong></a></h6>
-                        <p>As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
-                    </div>
-                </article>
-            </div>
-            </div>
-        </section>
-        <section>
-            <div class="d-flex mt-2 mb-2 flex-row justify-content-center align-items-center border border-top-0 border-left-0 border-right-0 pb-3 ">
-                <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico">
-                <h3 class="ml-2">IN THE MAGAZINE</h3>
-            </div>
-            <div class="">
-                <div class="row magazine-pick">
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" alt="2ndwave"/>
-                        <div class="caption">
-                            <a href="https://www.newsweek.com/us">U.S.</a>
+                            </h6>
+                            <p class="small"><strong href="#">BY KELSEY BAKER</strong></p>
                         </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class="bg-secondary d-inline-block">
-                                <a class="text-dark" href="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" title="">SEE ALL FEATURES > </a>
-                            </h5>
-                        </header>
                     </article>
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610816/fea-kushner.jpg?w=466&h=311&q=90&f=f9b24699b13b622e46afad59b7a07bfa" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
-                            <p class="text-danger"><strong>NEWS</strong></p>
+                    <article class="d-flex mb-4">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610783/judith-derrick.png?w=63&h=63&f=ed50fb7d3a8e51c8ac2f5f33d33612ea" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/black-lives-matter-money-budgets-politicians-bronx-1518722" class="text-dark"><strong>Politicians Who Say Black Lives Matter: Put Your Budget Where Your Mouth Is</strong></a>
+                            </h6>
+                            <p class="small"><strong href="#">BY JUDITH K. DIMON AND DERRICK H. LEWIS</strong></p>
                         </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class="">
-                                <a class="text-dark" href="https://www.newsweek.com/2020/07/24/exclusive-jared-kushner-gets-candid-about-struggling-trump-campaign-mideast-peace-more-1518952.html" title="">Exclusive: Kushner Gets Candid On Troubled Trump Campaign, Mideast, More</a>
-                            </h5>
-                        </header>
                     </article>
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610210/fea-secondwave.jpg?w=466&h=311&l=51&t=44&q=90&f=63abb2f7ed334c51fb997e04c688737b" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
-                            <p class="text-danger"><strong>HEALTH</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/second-wave-could-mean-better-survival-rates-coronavirus-patients-1516099" class="text-dark" title="">A Second Wave Could Mean Better Survival Rates for Coronavirus Patients</a></h5>
-                        </header>
-                    </article>                        
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607718/per-economy-01.jpg?w=466&h=311&q=90&f=aceffcfa363625adfdcedf71860ce45c" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
-                            <p class="text-danger"><strong>BUSINESS</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/2020/07/17/4-smart-money-moves-make-economy-starts-recover-1516433.html" class="text-dark" title="">4 Smart Money Moves to Make As the Economy Starts to Recover</a></h5>
-                        </header>
-                    </article>
-                    <article class="mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607615/f-scott-fitzgerald-author-great.jpg?w=466&h=311&q=90&f=66b0462eae1e0d219546ab769f1df01d" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
-                            <p class="text-danger"><strong>CULTURE</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/liberalism-has-failed-opinion-1516318" class="text-dark" title="">Liberalism Has Failed</a></h5>
-                        </header>
-                    </article>
-                    <article class="mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610213/per-trump.jpg?w=466&h=311&l=50&t=46&q=90&f=4ac1b26567fbda17104a815e0df210a0" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
-                            <p class="text-danger"><strong>CULTURE</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h5>
-                        </header>
-                    </article>
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607679/i-pastafari-flying-spaghetti-monster-story.jpg?w=466&h=311&l=49&t=54&q=90&f=80fb1dc9ebc92948a456a1eafe207291" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
-                            <p class="text-danger"><strong>CULTURE</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/i-pastafari-church-flying-spaghetti-monster-interview-1515169" class="text-dark" title="">'I, Pastafari' Doc Chronicles the Church of the Flying Spaghetti Monster</a></h5>
-                        </header>
-                    </article>
-                    <article class="w-100 mb-2 col-md-3">
-                        <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609107/cul-ps-bialik.jpg?w=466&h=311&l=45&t=32&q=90&f=818c10d036f92d896dc83c874a28a257" alt="">
-                        <div class="d-flex mb-3 mt-2">
-                            <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
-                            <p class="text-danger"><strong>CULTURE</strong></p>
-                        </div>
-                        <header class="w-100 mt-n4">
-                            <h5 class=""><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h5>
-                        </header>
-                    </article>
-                </div>
-            </div>
-            <div class="d-flex mt-2 mb-2 border border-top-0 border-left-0 border-right-0 pb-3 flex-row justify-content-center align-items-center">
-                <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico">
-                <h3 class="ml-2">EDITOR'S PICK</h3>
-            </div>
-                <div>
-                    <div class="row editor-pick">
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/face-mask-covering-exemption-card-cdc-advice-1519928" title="" class="text-dark">Who is Exempt From Wearing a Face Mask?</a></h3>
-                            </header>
-                            <p class="ml-0">The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be difficult.</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/stimulus-plans-senate-gop-leadership-1519873" title="" class="text-dark">Senate GOP to Begin Unveiling Stimulus Plans, As COVID Cases Near 4 Million</a></h3>
-                            </header>
-                            <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a></h3>
-                            </header>
-                            <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a></h3>
-                            </header>
-                            <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/face-mask-covering-exemption-card-cdc-advice-1519928" title="" class="text-dark">Who is Exempt From Wearing a Face Mask?</a></h3>
-                            </header>
-                            <p class="ml-0">The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be difficult.</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/stimulus-plans-senate-gop-leadership-1519873" title="" class="text-dark">Senate GOP to Begin Unveiling Stimulus Plans, As COVID Cases Near 4 Million</a></h3>
-                            </header>
-                            <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a></h3>
-                            </header>
-                            <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
-                        </article>
-                        <article class="w-100 mb-2 col-md-6">
-                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f">
-                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
-                            <header class="w-100 mt-n4">
-                                <h3 class="ml-0"><a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a></h3>
-                            </header>
-                            <p class="ml-0">Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all Ohioans wear a mask."</p>
-                        </article>
-                    </div>
-                </div>
-        </section>
-        <section class="last-section  row mt-2 m-0 h-100">
-            <article class="newsletter-subscribe col-sm-12  col-md-12 col-lg-7 mb-3">
-                <header class="block-title mx-n3 ml-lg-n3 mt-lg-4 mb-lg-3 text-danger">SUBSCRIBE</header>
-                <div class="row email-subscription">
-                    <div class="col-sm-12 col-md-5 mt-lg-4" id="nl-img-cont">
-                        <div>
-                            <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138">
-                        </div>
-                        <div id="newsletter-img-top">
-                            <img src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063">
-                        </div>
-                    </div>
-                    <div class="col-sm-12 subscribe-sect col-md-7 mt-md-5">
-                        <header class="text-center">
-                            <h3><strong>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</strong></h3>
-                            <p>All Access + Weekly Delivery.
-                                Choose A Membership That's Perfect for You!</p>
-                        </header>
-                        <div class="f1 info w-100 border-danger justify-content-center text-center">
-                            <button type="button" class="btn btn-danger mt-2 mb-2 ml-2 mr-2">SUBSCRIBE ></button>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="newsletter col-sm-12 col-md-12 col-lg-5 ">
-                <header class="block-title mx-0 mx-md-0 ml-lg-3 mb-lg-1 text-danger">NEWSLETTER</header>
-                <div class="d-lg-flex justify-content-center border" id="news-border">
-                    <div class="news-block row w-100 justify-content-center p-3">
-                        <div class="col-sm-12 col-lg-6 w-lg-50 d-lg-block" id="newsletter-large-pic">
-                        </div>
-                        <div class="smalldiv col-sm-12 col-lg-6 w-100 w-lg-50 pl-3 py-5 border ">
-                            <div>
-                                <h3 class="text-center text-lg-left mb-3"><strong>The Starting 5</strong></h3>
-                                <p class="text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <div class="d-flex mt-6 justify-content-center">
+                        <div class="flex-column justify-content-center p-3 email-subscription-top">
+                            <div class="d-flex">
+                                <div class="mt-2"><img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" /></div>
+                                <span class="ml-1"><strong>START YOUR DAY WITH OUR TOP 5 ARTICLES</strong></span>
                             </div>
                             <div class="mt-3">
                                 <input type="text" class="form-text form-control" placeholder="Email address" />
@@ -798,13 +470,459 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-3 right-news-cont">
+                        <article class="col-md-6 col-lg-12 w-100 mb-2">
+                            <div class="w-100 border" id="background-center-a">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" />
+                            </div>
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-2">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            </header>
+                            <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        </article>
+                        <article class="col-md-6 col-lg-12 w-100 mb-2">
+                            <div class="w-100 border" id="background-center-a">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" />
+                            </div>
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            </header>
+                            <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        </article>
+                        <article class="col-md-6 col-lg-12 w-100 mb-2">
+                            <div class="w-100 border" id="background-center-a">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" />
+                            </div>
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h3>
+                            </header>
+                            <p class="ml-0 text-dark">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
+                        </article>
+                    </div>
+                </aside>
+            </section>
+            <section class="border mt-4">
+                <div class="w-100 d-md-none d-flex flex-column">
+                    <article class="story-grid order-1">
+                        <h5>MY TURN</h5>
+                        <div class="row">
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609812/lara-logan-egypt-sexual-assault.png?w=397&h=397&f=64520efc71bd34f32eb9f32334aa9244" />
+                                <p><a href="https://www.newsweek.com/lara-logan-me-too-egyptian-women-turning-tide-1517971">In a New 'Me Too' Moment, Brave Women in Egypt are Turning the Tide </a></p>
+                            </section>
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610087/ice-students-immigration-pandemic-coronavirus.jpg?w=397&h=397&f=36d039f2cccbd9fa0ba8f2988f8c4ad4" />
+                                <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
+                            </section>
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6" />
+                                <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
+                            </section>
+                        </div>
+                    </article>
+                    <article class="story-grid order-2">
+                        <h5>CULTURE & TRAVEL</h5>
+                        <div class="row">
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a" />
+                                <p><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
+                            </section>
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54" />
+                                <p><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
+                            </section>
+                            <section class="col-sm-12 col-md-4">
+                                <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1606088/nevada.jpg?w=397&h=397&f=3b43a07ccaccf6ac6528a9e7fefc9b54" />
+                                <p>
+                                    <a href="https://www.newsweek.com/ufo-towers-tsunami-clocks-every-us-states-most-unique-roadside-attraction-1515144">
+                                        UFO Towers to Tsunami Clocks, Every State's Most Unique Roadside Attraction
+                                    </a>
+                                </p>
+                            </section>
+                        </div>
+                    </article>
+                    <div class="block-title">
+                        <a class="text-white" href=" ">MORE STORIES</a>
+                    </div>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/joe-biden-hillary-clinton-polling-fundraising-donald-trump-election-1518586" class="text-dark">
+                                    <strong>Biden Is Polling Better Than Clinton Was—and Has Five Times the Cash Too</strong>
+                                </a>
+                            </h6>
+                            <p>Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" class="text-dark"><strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong> </a>
+                            </h6>
+                            <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/democrats-could-pick-20-house-seats-most-districts-trump-won-2016-1518645" class="text-dark">
+                                    <strong>Democrats Could Pick up 20 House Seats, Most in Districts Trump Won in 2016</strong>
+                                </a>
+                            </h6>
+                            <p>Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/coronavirus-deaths-surge-17-states-trump-claims-fatalities-down-tenfold-1518642" class="text-dark">
+                                    <strong>Coronavirus Deaths Surge in 17 States as Trump Claims Fatalities Down</strong>
+                                </a>
+                            </h6>
+                            <p>
+                                Several states across the U.S. have seen a rise in coronavirus-related deaths, since June 1, while President Donald Trump recently made the outdated claim that fatalities from the virus were down "tenfold."
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/record-coronavirus-deaths-reported-texas-florida-1518617" class="text-dark"><strong>Record Coronavirus Deaths Reported in Texas and Florida</strong></a>
+                            </h6>
+                            <p>The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3">
+                            <img src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" />
+                        </div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/iran-threatens-israel-us-lying-killing-advisors-syria-1518536" class="text-dark"><strong>Iran Threatens Israel, U.S. for 'Lying' About Killing Advisers in Syria</strong></a>
+                            </h6>
+                            <p>Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" class="text-dark"><strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined'</strong></a>
+                            </h6>
+                            <p>The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/most-americans-would-rather-control-covid-19-spread-protect-economy-poll-1518601" class="text-dark">
+                                    <strong>Most Americans Would Rather Control COVID-19 Spread Than Protect Economy</strong>
+                                </a>
+                            </h6>
+                            <p>Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/stimulus-loans-small-businesses-should-forgiven-mnuchin-says-1518706" class="text-dark">
+                                    <strong>Stimulus Loans for Small Businesses Should be Forgiven, Mnuchin Says</strong>
+                                </a>
+                            </h6>
+                            <p>
+                                The Treasury secretary said that Congress should completely forgive the smaller loans given to businesses to keep their lights on amid the economic downturn and that loans should be extended for hospitality
+                                and travel industries, as well.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6><a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark">Inside Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</a></h6>
+                            <p>While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/youtuber-spreads-coronavirus-while-shooting-video-japans-most-populous-island-1518557" class="text-dark">
+                                    <strong>YouTuber Spreads Coronavirus While Filming on Japan's Most Populous Island</strong>
+                                </a>
+                            </h6>
+                            <p>The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                        <div class="mt-3"><img src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" /></div>
+                        <div class="ml-3 mt-3">
+                            <h6>
+                                <a href="https://www.newsweek.com/world-bank-staff-have-new-goal-boost-incomes-their-assigned-countries-1518376" class="text-dark">
+                                    <strong>World Bank Staff Have a New Goal: Boost Incomes in Their Assigned Countries</strong>
+                                </a>
+                            </h6>
+                            <p>As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-        </section>
-    </main>
+            </section>
+            <section>
+                <div class="d-flex mt-2 mb-2 flex-row justify-content-center align-items-center border border-top-0 border-left-0 border-right-0 pb-3">
+                    <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico" />
+                    <h3 class="ml-2">IN THE MAGAZINE</h3>
+                </div>
+                <div class="">
+                    <div class="row magazine-pick">
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" alt="2ndwave" />
+                            <div class="caption">
+                                <a href="https://www.newsweek.com/us">U.S.</a>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class="bg-secondary d-inline-block">
+                                    <a class="text-dark" href="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c" title="">SEE ALL FEATURES > </a>
+                                </h5>
+                            </header>
+                        </article>
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610816/fea-kushner.jpg?w=466&h=311&q=90&f=f9b24699b13b622e46afad59b7a07bfa" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
+                                <p class="text-danger"><strong>NEWS</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class="">
+                                    <a class="text-dark" href="https://www.newsweek.com/2020/07/24/exclusive-jared-kushner-gets-candid-about-struggling-trump-campaign-mideast-peace-more-1518952.html" title="">
+                                        Exclusive: Kushner Gets Candid On Troubled Trump Campaign, Mideast, More
+                                    </a>
+                                </h5>
+                            </header>
+                        </article>
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610210/fea-secondwave.jpg?w=466&h=311&l=51&t=44&q=90&f=63abb2f7ed334c51fb997e04c688737b" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>COVER</strong></p>
+                                <p class="text-danger"><strong>HEALTH</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class="">
+                                    <a href="https://www.newsweek.com/second-wave-could-mean-better-survival-rates-coronavirus-patients-1516099" class="text-dark" title="">
+                                        A Second Wave Could Mean Better Survival Rates for Coronavirus Patients
+                                    </a>
+                                </h5>
+                            </header>
+                        </article>
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607718/per-economy-01.jpg?w=466&h=311&q=90&f=aceffcfa363625adfdcedf71860ce45c" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
+                                <p class="text-danger"><strong>BUSINESS</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class="">
+                                    <a href="https://www.newsweek.com/2020/07/17/4-smart-money-moves-make-economy-starts-recover-1516433.html" class="text-dark" title="">4 Smart Money Moves to Make As the Economy Starts to Recover</a>
+                                </h5>
+                            </header>
+                        </article>
+                        <article class="mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607615/f-scott-fitzgerald-author-great.jpg?w=466&h=311&q=90&f=66b0462eae1e0d219546ab769f1df01d" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
+                                <p class="text-danger"><strong>CULTURE</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class=""><a href="https://www.newsweek.com/liberalism-has-failed-opinion-1516318" class="text-dark" title="">Liberalism Has Failed</a></h5>
+                            </header>
+                        </article>
+                        <article class="mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610213/per-trump.jpg?w=466&h=311&l=50&t=46&q=90&f=4ac1b26567fbda17104a815e0df210a0" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>PERISCOPE</strong></p>
+                                <p class="text-danger"><strong>CULTURE</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class=""><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h5>
+                            </header>
+                        </article>
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607679/i-pastafari-flying-spaghetti-monster-story.jpg?w=466&h=311&l=49&t=54&q=90&f=80fb1dc9ebc92948a456a1eafe207291" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
+                                <p class="text-danger"><strong>CULTURE</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class="">
+                                    <a href="https://www.newsweek.com/i-pastafari-church-flying-spaghetti-monster-interview-1515169" class="text-dark" title="">'I, Pastafari' Doc Chronicles the Church of the Flying Spaghetti Monster</a>
+                                </h5>
+                            </header>
+                        </article>
+                        <article class="w-100 mb-2 col-md-3">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609107/cul-ps-bialik.jpg?w=466&h=311&l=45&t=32&q=90&f=818c10d036f92d896dc83c874a28a257" alt="" />
+                            <div class="d-flex mb-3 mt-2">
+                                <p class="bg-danger text-white mr-1"><strong>DOWNTIME</strong></p>
+                                <p class="text-danger"><strong>CULTURE</strong></p>
+                            </div>
+                            <header class="w-100 mt-n4">
+                                <h5 class=""><a href="https://www.newsweek.com/mccarthy-gop-election-2020-1518540" class="text-dark" title="">House GOP Leader Says Party May Never Win Election Again if Dems Sweep 2020 </a></h5>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+                <div class="d-flex mt-2 mb-2 border border-top-0 border-left-0 border-right-0 pb-3 flex-row justify-content-center align-items-center">
+                    <img class="img-fluid" src="https://g.newsweek.com/themes/newsweek/favicon.ico" />
+                    <h3 class="ml-2">EDITOR'S PICK</h3>
+                </div>
+                <div>
+                    <div class="row editor-pick">
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/face-mask-covering-exemption-card-cdc-advice-1519928" title="" class="text-dark">Who is Exempt From Wearing a Face Mask?</a></h3>
+                            </header>
+                            <p class="ml-0">
+                                The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be
+                                difficult.
+                            </p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/stimulus-plans-senate-gop-leadership-1519873" title="" class="text-dark">Senate GOP to Begin Unveiling Stimulus Plans, As COVID Cases Near 4 Million</a></h3>
+                            </header>
+                            <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a>
+                                </h3>
+                            </header>
+                            <p class="ml-0">
+                                Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all
+                                Ohioans wear a mask."
+                            </p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a>
+                                </h3>
+                            </header>
+                            <p class="ml-0">
+                                Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all
+                                Ohioans wear a mask."
+                            </p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612604/face-mask.jpg?w=397&h=295&l=78&t=27&f=99f937be6aabd6192346f34a3df09e47" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/face-mask-covering-exemption-card-cdc-advice-1519928" title="" class="text-dark">Who is Exempt From Wearing a Face Mask?</a></h3>
+                            </header>
+                            <p class="ml-0">
+                                The CDC recommends that certain groups of people, such as children under the age of two, should not wear masks, but that others should find adaptations and alternatives if they find wearing masks to be
+                                difficult.
+                            </p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612526/mcconnell.jpg?w=397&h=295&f=669fc5f122a50d3a22af15aab3a51b82" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0"><a href="https://www.newsweek.com/stimulus-plans-senate-gop-leadership-1519873" title="" class="text-dark">Senate GOP to Begin Unveiling Stimulus Plans, As COVID Cases Near 4 Million</a></h3>
+                            </header>
+                            <p class="ml-0">The Senate's Republican leadership has been discussing what plans to enact next amid surges in coronavirus cases.</p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612553/face-mask-mandate.jpg?w=397&h=295&l=34&t=34&f=bcf0c817dc03c620194fb948d19f2201" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a>
+                                </h3>
+                            </header>
+                            <p class="ml-0">
+                                Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all
+                                Ohioans wear a mask."
+                            </p>
+                        </article>
+                        <article class="w-100 mb-2 col-md-6">
+                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1612577/china-tianwen-1-mars-mission.jpg?w=397&h=295&f=28b3177a324f06c4af26d5757f01e36f" />
+                            <div class="caption"><a href="https://www.newsweek.com/us">U.S.</a></div>
+                            <header class="w-100 mt-n4">
+                                <h3 class="ml-0">
+                                    <a href="https://www.newsweek.com/ohio-face-mask-mandate-requirement-rules-gov-de-1519887" title="" class="text-dark">Ohio Face Mask Mandate: Rules and Requirements As Order Goes Into Effect</a>
+                                </h3>
+                            </header>
+                            <p class="ml-0">
+                                Gov. Mike DeWine said: "Wearing masks will make a difference. It will determine what our fall looks like. We want kids to go back to school, we want to see sports—to do that it's very important that all
+                                Ohioans wear a mask."
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="last-section row mt-2 m-0 h-100">
+                <article class="newsletter-subscribe col-sm-12 col-md-12 col-lg-7 mb-3">
+                    <header class="block-title mx-n3 ml-lg-n3 mt-lg-4 mb-lg-3 text-danger">SUBSCRIBE</header>
+                    <div class="row email-subscription">
+                        <div class="col-sm-12 col-md-5 mt-lg-4" id="nl-img-cont">
+                            <div>
+                                <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138" />
+                            </div>
+                            <div id="newsletter-img-top">
+                                <img src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 subscribe-sect col-md-7 mt-md-5">
+                            <header class="text-center">
+                                <h3><strong>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</strong></h3>
+                                <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                            </header>
+                            <div class="f1 info w-100 border-danger justify-content-center text-center">
+                                <button type="button" class="btn btn-danger mt-2 mb-2 ml-2 mr-2">SUBSCRIBE ></button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="newsletter col-sm-12 col-md-12 col-lg-5">
+                    <header class="block-title mx-0 mx-md-0 ml-lg-3 mb-lg-1 text-danger">NEWSLETTER</header>
+                    <div class="d-lg-flex justify-content-center border" id="news-border">
+                        <div class="news-block row w-100 justify-content-center p-3">
+                            <div class="col-sm-12 col-lg-6 w-lg-50 d-lg-block" id="newsletter-large-pic"></div>
+                            <div class="smalldiv col-sm-12 col-lg-6 w-100 w-lg-50 pl-3 py-5 border">
+                                <div>
+                                    <h3 class="text-center text-lg-left mb-3"><strong>The Starting 5</strong></h3>
+                                    <p class="text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                                </div>
+                                <div class="mt-3">
+                                    <input type="text" class="form-text form-control" placeholder="Email address" />
+                                    <input type="submit" class="form-submit btn btn-primary btn-block btn-danger mt-3" value="FREE SIGN UP" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
         <footer id="sticky-footer">
             <div class="d-flex pl-3" id="footer-content">
-                <div><img src="images/newsweeklogo.png" id="footer-logo"></div>
+                <div><img src="images/newsweeklogo.png" id="footer-logo" /></div>
                 <span class="footer-copyright align-self-center small pr-md-2">© 2020 NEWSWEEK</span>
                 <nav class="align-self-center bd-highlight social">
                     <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
@@ -815,11 +933,10 @@
                 </nav>
             </div>
             <div class="mx-3">
-                <hr class="bg-secondary w-100">
-            </div>
+                <hr class="bg-secondary w-100" />
             </div>
             <div class="w-100">
-                 <span class="mt-2 pl-3"><strong>Editions:</strong></span>
+                <span class="mt-2 pl-3"><strong>Editions:</strong></span>
                 <nav class="d-flex pl-2 navbar-expand-sm">
                     <ul class="navbar-nav2 d-flex mt-1 list-unstyled editions-list">
                         <li class="nav-item p-2 small"><a href="https://www.newsweek.com/" class="text-secondary">U.S. Edition</a></li>
