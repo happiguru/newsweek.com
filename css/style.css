@@ -144,18 +144,6 @@
     font-weight: 800;
     font-size: 1em;
   }
-  
-  #header-bottom {
-    border: 1px solid black;
-  }
-  
-  #section-left {
-    border: 1px solid red;
-  }
-  
-  #section-center {
-    border: 1px solid green;
-  }
 
   .story-grid a {
     color: #939393;
@@ -294,7 +282,7 @@
       position: relative;
       z-index: -1;
     }
-    
+
     header.header-container {
       position: -webkit-sticky; /* Safari */
       position: sticky;
@@ -499,7 +487,6 @@
     }
 
     #newsletter-large-pic {
-      /* display:block; */
       background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
       background-repeat: no-repeat;
       background-position: center;
