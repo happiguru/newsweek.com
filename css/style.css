@@ -235,11 +235,9 @@
     border: none !important;
   }
 
-  /* div.news-block {
-    display: block;
-  } */
 
   @media screen and (max-width: 768px) {
+
     .feature-section,
     .story-section,
     .debate-section {
@@ -290,6 +288,17 @@
     
     main {
       margin-top: 20px;
+    }
+
+    nav.navia {
+      position: relative;
+      z-index: -1;
+    }
+    
+    header.header-container {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
     }
 
     .top-header{
