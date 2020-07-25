@@ -15,15 +15,6 @@
   h6 {
     font-family: "Roboto Condensed", sans-serif;
   }
-  
-  h1:hover,
-  h2:hover,
-  h3:hover,
-  h4:hover,
-  h5:hover,
-  h6:hover {
-    text-decoration: underline #f72210;
-  }
 
   .header-main {
     width: 100%;
@@ -287,7 +278,7 @@
       position: -webkit-sticky; /* Safari */
       position: sticky;
       top: 0;
-    }
+    } 
 
     .top-header{
       padding:0;
