@@ -22,18 +22,18 @@ h6 {
   border: 4px solid yellow;
 }
 
+.header-logo {
+  height: 40px;
+}
+
 ul,
 ul li {
   list-style-type: none;
 }
 
-.navbar-toggler-icon {
-  display: none;
-}
-
 .header-container {
   max-height: 150px;
-  background-color: #f72210;
+  background-color: #ff0500;
   height: 100px;
 }
 
@@ -53,9 +53,13 @@ ul li {
   font-weight: 700;
 }
 
+.caption {
+  text-align: center;
+}
+
 .caption a {
   color: red;
-  text-align: center;
+  align-self: center;
   font-weight: 800;
   font-size: 1em;
 }
@@ -243,9 +247,6 @@ div.smalldiv {
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
-  .navbar-toggler-icon {
-    display: inline;
-  }
 
   .feature-section,
   .story-section,
@@ -349,6 +350,10 @@ div.smalldiv {
 
   .top-header {
     padding: 0;
+  }
+
+  .header-logo {
+    height: 100px;
   }
 
   #middle-navbar {
