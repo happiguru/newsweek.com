@@ -353,7 +353,6 @@ div.smalldiv {
 @media screen and (min-width: 992px) {
   main {
     margin-top: 0px;
-    padding-top: 20px;
   }
 
   nav.navia {
@@ -404,9 +403,12 @@ div.smalldiv {
     height: 54px;
   }
 
+  .nav-item1 {
+    margin: 15px 5px;
+  }
+
   .navbar-nav1 li {
     list-style-type: none;
-    padding: 3px;
     flex-grow: 1;
   }
 
@@ -421,7 +423,6 @@ div.smalldiv {
   ul.navbar-nav1 li a {
     color: black;
     display: block;
-    padding: 15px 5px;
     flex-grow: 1;
   }
 
