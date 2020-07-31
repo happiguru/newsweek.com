@@ -254,10 +254,15 @@ h5.mini-header {
 
 #nl-img-cont {
   height: 180px;
+  padding-left: 36px;
 }
 
 #newsletter-large-pic {
   display: none;
+}
+
+#navbar-nav2 {
+  height: 34px;
 }
 
 div.smalldiv {
