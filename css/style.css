@@ -501,6 +501,7 @@ div.smalldiv {
   }
 
   .email-subscription-top {
+    display: inline;
     width: 80%;
     height: auto;
   }
