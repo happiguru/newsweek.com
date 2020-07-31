@@ -277,7 +277,7 @@ div.smalldiv {
     font-size: 1.10rem;
     line-height: 1.5rem;
   }
-  
+
   div.main-backg {
     height: 217px;
   }
@@ -335,6 +335,10 @@ div.smalldiv {
   .right-news-cont {
     display: none;
   }
+
+  #nl-img-cont {
+    padding-left: 3%;
+}
 
   .more-stories1 {
     position: -webkit-sticky;
