@@ -306,7 +306,6 @@ div.smalldiv {
   .email-subscription-top {
     width: 40%;
     height: auto;
-    display: inline;
   }
 
   .email-subscription {
@@ -326,7 +325,6 @@ div.smalldiv {
   }
 
   #newsletter-large-pic {
-    display: inline;
     background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
     background-repeat: no-repeat;
     background-position: center;
@@ -508,7 +506,6 @@ div.smalldiv {
   .email-subscription-top {
     width: 80%;
     height: auto;
-    display: inline;
   }
 
   .form-inline {
