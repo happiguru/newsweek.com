@@ -69,7 +69,8 @@ ul li {
 }
 
 .caption a,
-.caption1 a {
+.caption1 a,
+.caption-culture a {
   color: red;
   align-self: center;
   font-weight: 800;
@@ -274,6 +275,21 @@ div.smalldiv {
 
   div.main-backg {
     height: 220px;
+  }
+
+  .caption-culture {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 0;
+    background-color: #fff;
+    width: 70px;
+    height: 30px;
+    opacity: 0.8;
+  }
+
+  .caption-culture.block-title > a {
+    line-height: 1.25rem;
   }
 
   .feature-section,
