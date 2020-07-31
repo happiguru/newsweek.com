@@ -253,10 +253,10 @@ h5.mini-header {
   color: #656665;
 }
 
-#nl-img-cont {
+/* #nl-img-cont {
   height: 180px;
   padding-left: 10%;
-}
+} */
 
 #newsletter-large-pic {
   display: none;
@@ -270,7 +270,11 @@ div.smalldiv {
   border: none !important;
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (min-width: 768px) {
+
+  div.main-backg {
+    height: 220px;
+  }
 
   .feature-section,
   .story-section,
