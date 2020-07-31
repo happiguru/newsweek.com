@@ -126,7 +126,7 @@ article.subscribe-art {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 364px;
+  height: 243px;
 }
 
 div.mag-thumb.current,
@@ -273,7 +273,7 @@ div.smalldiv {
 @media screen and (min-width: 768px) {
 
   div.main-backg {
-    height: 220px;
+    height: 241px;
   }
 
   .feature-section,
@@ -582,8 +582,12 @@ div.smalldiv {
   .feature-section {
     position: -webkit-sticky;
     position: sticky;
-    bottom: 1rem;
-    align-self: flex-end;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .feature-section h6 {
+    padding-top: 9px;
   }
 
   .last-section {
