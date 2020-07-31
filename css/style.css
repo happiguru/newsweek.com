@@ -163,9 +163,9 @@ article.newsletter {
   top: 20px;
 }
 
-div.subscribe-sect {
+/*div.subscribe-sect {
   margin-top: 100px;
-}
+}*/
 
 article {
   height: auto;
@@ -253,10 +253,10 @@ h5.mini-header {
   color: #656665;
 }
 
-/* #nl-img-cont {
+#nl-img-cont {
   height: 180px;
   padding-left: 10%;
-} */
+}
 
 #newsletter-large-pic {
   display: none;
