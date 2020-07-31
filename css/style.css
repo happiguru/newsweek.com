@@ -68,13 +68,7 @@ ul li {
   opacity: 0.9;
 }
 
-.caption a {
-  color: red;
-  align-self: center;
-  font-weight: 800;
-  font-size: 1em;
-}
-
+.caption a,
 .caption1 a {
   color: red;
   align-self: center;
@@ -261,7 +255,7 @@ h5.mini-header {
 
 #nl-img-cont {
   height: 180px;
-  padding-left: 36px;
+  padding-left: 74px;
 }
 
 #newsletter-large-pic {
