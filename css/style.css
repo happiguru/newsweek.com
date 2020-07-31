@@ -113,7 +113,7 @@ nav > div.w-70 {
 /* Main Section Starts here */
 
 main {
-  margin-top: 60px;
+  margin-top: 50px;
   height: auto;
   width: 100%;
 }
@@ -127,7 +127,7 @@ article.subscribe-art {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 364px;
+  height: 243px;
 }
 
 div.mag-thumb.current,
@@ -164,9 +164,9 @@ article.newsletter {
   top: 20px;
 }
 
-div.subscribe-sect {
+/*div.subscribe-sect {
   margin-top: 100px;
-}
+}*/
 
 article {
   height: auto;
@@ -254,10 +254,10 @@ h5.mini-header {
   color: #656665;
 }
 
-/* #nl-img-cont {
+#nl-img-cont {
   height: 180px;
   padding-left: 10%;
-} */
+}
 
 #newsletter-large-pic {
   display: none;
@@ -274,7 +274,7 @@ div.smalldiv {
 @media screen and (min-width: 768px) {
 
   div.main-backg {
-    height: 220px;
+    height: 241px;
   }
 
   .caption-culture {
@@ -517,6 +517,7 @@ div.smalldiv {
   }
 
   .email-subscription-top {
+    display: inline;
     width: 80%;
     height: auto;
   }
@@ -598,8 +599,12 @@ div.smalldiv {
   .feature-section {
     position: -webkit-sticky;
     position: sticky;
-    bottom: 1rem;
-    align-self: flex-end;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .feature-section h6 {
+    padding-top: 9px;
   }
 
   .last-section {
