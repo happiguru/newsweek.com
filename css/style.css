@@ -331,7 +331,6 @@ div.smalldiv {
   }
 
   #sticky-footer {
-    margin: 0;
     padding: 0;
   }
 
@@ -589,6 +588,14 @@ div.smalldiv {
 
   .last-section {
     flex-direction: row;
+  }
+
+  .newsletter-subscribe {
+    padding-right: 16px;
+  }
+
+  .newsletter {
+    margin-left: 16px;
   }
 
   #newsletter-large-pic {
