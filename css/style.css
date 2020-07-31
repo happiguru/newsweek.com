@@ -463,6 +463,10 @@ div.smalldiv {
     padding-right: 0;
   }
 
+  div.main-backg {
+    height: 317px;
+  }
+
   .feature-section,
   .story-section,
   .debate-section {
