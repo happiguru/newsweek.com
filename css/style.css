@@ -190,11 +190,6 @@ h5.mini-header {
   width: 30px;
 }
 
-.email-subscription,
-.email-subscription-top {
-  background-color: #f4f5f6;
-}
-
 #versus-container::before {
   content: "";
   display: block;
@@ -613,7 +608,7 @@ div.smalldiv {
   }
 
   .feature-section h6 {
-    padding-top: 9px;
+    padding-top: 16px;
   }
 
   .last-section {
