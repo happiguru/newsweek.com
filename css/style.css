@@ -359,16 +359,10 @@ div.smalldiv {
   /* This is for the middle navbar */
 
   .nav-navigation {
-    display: flex;
-    justify-content: space-between;
     height: 55px;
   }
 
   .navbar-nav1 {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: stretch;
     width: 90%;
     height: 54px;
   }
@@ -385,9 +379,8 @@ div.smalldiv {
   ul.navbar-nav1 {
     font-size: 1rem;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: "Roboto Condensed", sans-serif;
-    color: black;
   }
 
   ul.navbar-nav1 li a {
@@ -396,19 +389,9 @@ div.smalldiv {
     flex-grow: 1;
   }
 
-  #nav-link-long {
-    padding-left: 0;
-    padding-right: 0;
-  }
 
   div.main-backg {
     height: 317px;
-  }
-
-  .feature-section,
-  .story-section,
-  .debate-section {
-    height: auto;
   }
 
   .story-section,
@@ -419,7 +402,6 @@ div.smalldiv {
   }
 
   div.weather {
-    position: relative;
     top: -90px;
   }
 
@@ -427,21 +409,21 @@ div.smalldiv {
     z-index: 100;
   }
 
-  nav.nav-navigation {
-    display: flex;
+  ul.navbar-nav1 li a,
+  ul.nav li,
+  ul.navbar-nav {
+    color: black;
   }
 
   ul.navbar-nav {
     font-size: 1.1rem;
     line-height: 24px;
     font-family: "Roboto Condensed", sans-serif;
-    color: black;
   }
 
   ul.navbar-nav1 li a,
   ul.nav li {
-    color: black;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   ul.nav li,
@@ -464,34 +446,18 @@ div.smalldiv {
     position: -webkit-sticky;
     position: sticky;
     bottom: 1rem;
-    align-self: flex-start;
   }
 
   .email-subscription-top {
     width: 80%;
-    height: auto;
   }
 
   .form-inline {
     width: 14%;
-    justify-content: flex-start;
-  }
-
-  .form-control {
-    padding: 0;
   }
 
   .navbar-nav {
     width: 86%;
-  }
-
-  #coll {
-    margin: 0;
-    display: flex;
-  }
-
-  .navbar-expand .navbar-collapse {
-    display: flex !important;
   }
 
   div.magazine-pick article > img,
@@ -535,38 +501,20 @@ div.smalldiv {
     margin: 0;
   }
 
-  .feature-cont {
-    align-items: flex-start;
-  }
-
   .story-section {
     position: -webkit-sticky;
     position: sticky;
     top: 4rem;
-    align-self: flex-start;
   }
 
   .feature-section {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    align-self: flex-start;
   }
 
   .feature-section h6 {
     padding-top: 9px;
-  }
-
-  .last-section {
-    flex-direction: row;
-  }
-
-  .newsletter-subscribe {
-    padding-right: 16px;
-  }
-
-  .newsletter {
-    margin-left: 16px;
   }
 
   #newsletter-large-pic {
@@ -581,17 +529,8 @@ div.smalldiv {
     height: 350px;
   }
 
-  .social {
-    margin-left: auto;
-  }
-
   #news-border {
-    border: none !important;
     width: 432px;
-  }
-
-  #footer-content {
-    flex-direction: row;
   }
 
 }
