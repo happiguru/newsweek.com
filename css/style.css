@@ -87,6 +87,10 @@ nav > div.w-30 {
   width: 30%;
 }
 
+.block-title > a {
+  line-height: 2.25rem;
+}
+
 nav > div.w-30 > a {
   font-size: 1.5rem;
 }
@@ -172,6 +176,7 @@ h3 {
   font-size: 24px;
   line-height: 24px;
 }
+
 h5.mini-header {
   font-size: 16px;
   line-height: 16px;
@@ -199,10 +204,6 @@ h5.mini-header {
   position: absolute;
   left: 0;
   right: 0;
-}
-
-.block-title > a {
-  line-height: 2.25rem;
 }
 
 #versus-container::after {
@@ -256,9 +257,8 @@ div.smalldiv {
 }
 
 @media screen and (min-width: 768px) {
-
   h4 {
-    font-size: 1.10rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
   }
 
@@ -310,7 +310,7 @@ div.smalldiv {
 
   #nl-img-cont {
     padding-left: 3%;
-}
+  }
 
   .more-stories1 {
     position: -webkit-sticky;
@@ -325,12 +325,11 @@ div.smalldiv {
     background-size: cover;
     height: 254px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
   main {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   nav.navia {
@@ -388,7 +387,6 @@ div.smalldiv {
     display: block;
     flex-grow: 1;
   }
-
 
   div.main-backg {
     height: 317px;
@@ -532,5 +530,4 @@ div.smalldiv {
   #news-border {
     width: 432px;
   }
-
 }
