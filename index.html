@@ -11,24 +11,23 @@
         <title>News Week Magazine</title>
     </head>
     <body>
-        <div class="container header-main border clearfix top-header">
-            <!-- Mobile View-->
+        <div class="container header-main border clearfix top-header p-lg-0">
             <nav class="navbar mobile-navbar p-0 clearfix navbar-expand-sm navbar-expand-md fixed-top d-lg-none navbar-light">
                 <div class="w-30 p-0 h-auto float-left">
                     <img src="images/Newsweek_Logo.svg" alt="" class="header-logo">
                 </div>
                 <div class="w-70 float-right">
-                    <button type="button" data-toggle="collapse" data-target="collapse_target" aria-controls="navbar-toggler-icon" aria-expanded="false" aria-label="Toggle navigation" class="float-right mt-1 align-self-end d-sm-inline d-md-inline d-lg-none navbar-toggler text-white"><span class="navbar-toggler-icon text-white">
+                    <div class="float-right mr-5 mt-1 align-self-end d-sm-inline d-md-inline d-lg-none navbar-toggler text-white">
+                        <div class="navbar-toggler-icon text-white"></div>
                         <div class="navbar-collapse"></div>
-                    </span></button>
+                    </div>
                     <ul class="top-navbar mt-2 float-right pr-2">
                         <li class="btn btn-sm text-white d-none d-sm-inline d-md-inline"><a href="#" class="text-white">Login</a></li>
                         <li class="btn btn-sm d-sm-inline d-md-none d-lg-none"><a href="#"><i class="far fa-user text-white"></i></a></li>
-                        <li class="btn btn-sm bg-warning d-sm-inline d-md-inline rounded-pill"><a href="#" class="text-dark">Subscribe ></a></li>
+                        <li class="btn btn-sm bg-warning d-sm-inline rounded-pill"><a href="#" class="text-dark">Subscribe ></a></li>
                     </ul>
                 </div>
             </nav>
-            <!-- Mobile View Ends Here-->
             <header class="container-fluid header-container d-none d-lg-block">
                 <div class="page-header d-inline position-absolute">
                     <img src="images/Newsweek_Logo.svg" alt="" class="header-logo">
@@ -37,22 +36,22 @@
                     <div class="row">
                         <div class="col-sm-6 mb-2 mt-5 p-0 text-white">Mon, Jul 20, 2020</div>
                         <div class="col-sm-6 mb-2 mt-3 p-1 d-flex justify-content-end">
-                            <button class="btn text-white">Login</button>
-                            <button class="btn bg-warning rounded-pill">Subscribe</button>
+                            <button class="btn text-white" type="button">Login</button>
+                            <button class="btn bg-warning rounded-pill" type="button">Subscribe</button>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid mt-2 weather">
+                <div class="container-fluid mt-2 weather position-relative">
                     <div class="api">
                         <a href="/weather" title="Weather" class="weather-cwidget ml-n3 text-white">
-                            <picture style="display: inherit;">
+                            <picture>
                                 <source srcset="https://g.newsweek.com/img/weather/34.webp" type="image/webp" />
                                 <img src="https://g.newsweek.com/img/weather/34.png" alt="Fair" class="weather-icon" />
                             </picture>
                             &nbsp;&nbsp;37°
                             <span class="weather-country">
                                 Sharjah, AE&nbsp;&nbsp;
-                                <picture style="display: inherit;">
+                                <picture>
                                     <source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
                                     <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="hello" class="weather-arrow" />
                                 </picture>
@@ -61,29 +60,28 @@
                     </div>
                 </div>
             </header>
-            <nav class="nav-navigation bg-white border border-top-0 border-left-0 border-right-0" id="middle-navbars">
-                <ul class="navbar-nav1">
+            <nav class="nav-navigation d-none d-lg-flex justify-content-lg-between bg-white border border-top-0 border-left-0 border-right-0" id="middle-navbars">
+                <ul class="navbar-nav1 d-lg-flex align-items-lg-stretch flex-lg-nowrap align-content-lg-center">
                     <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2">
                         <a class="nav-link1" href="https://www.newsweek.com/us" title="">U.S. <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/world" title="">World</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/business" title="">Business</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0"><a class="nav-link1" href="https://www.newsweek.com/tech-science" title="" id="nav-link-long">Tech &amp; Science</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/culture" title="">Culture</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/sports" title="">Sports</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/health" title="">Health</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0"><a class="nav-link1" href="https://www.newsweek.com/the-debate" title="">The Debate</a></li>
-                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/vantage" title="">Vantage</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/business">Business</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0"><a class="nav-link1 p-x-lg-0" href="https://www.newsweek.com/tech-science">Tech &amp; Science</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/culture">Culture</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/newsgeek">Newsgeek</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/sports">Sports</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/health">Health</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0"><a class="nav-link1" href="https://www.newsweek.com/the-debate">The Debate</a></li>
+                    <li class="nav-item1 border border-top-0 border-left-0 border-bottom-0 pb-0 pl-0 pt-0 pr-2"><a class="nav-link1" href="https://www.newsweek.com/vantage">Vantage</a></li>
                     <li class="nav-item1"><a class="nav-link1" href="https://www.newsweek.com/weather" title="">Weather</a></li>
                 </ul>
-                <form class="form-field form-inline">
-                    <input class="search-input form-control border-0" type="search" placeholder="Search" />
+                <form class="form-field d-flex justify-content-lg-start form-inline">
+                    <input class="search-input form-control p-0 border-0" type="search" placeholder="Search" />
                     <button class="search-btn btn" type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </nav>
 
-            <nav class="navbar bg-white navia border border-top-0 border-left-0 border-right-0">
+            <nav class="navbar bg-white d-none d-lg-flex navia border border-top-0 border-left-0 border-right-0">
                 <ul class="nav">
                     <li class="nav-item"><strong class="nav-link">Trending</strong></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/topic/donald-trump">Donald Trump</a></li>
@@ -98,9 +96,9 @@
         <main class="container bg-white position-relative pb-2git ">
             <section class="row">
                 <div class="col-xs-12 col-md-12 col-lg-8 col-xl-9">
-                    <div class="row d-md-flex feature-cont">
-                        <div class="col-xs-12 col-md-6 col-lg-4 feature-section bg-white order-2 order-sm-2 order-md-1 left-scroll">
-                            <h6 class="ml-0 mt-2"><strong>FEATURED STORIES</strong></h6>
+                    <div class="row d-md-flex feature-cont align-items-md-start">
+                        <div class="col-xs-12 col-md-6 col-lg-5 feature-section h-auto bg-white order-2 order-sm-2 order-md-1 left-scroll">
+                            <h6 class="ml-0"><strong>FEATURED STORIES</strong></h6>
                             <article class="w-100 mb-4">
                                 <div class="w-100 border">
                                     <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610635/smithsonian-talking-about-race.png?w=397&h=265&q=90&f=088f98abd3d19bcebe96f7b8679a9260" alt="t" />
@@ -170,8 +168,8 @@
                                 <p class="ml-0">The House minority leader said Democrats would "change the rules of the game" were they to win November's election.</p>
                             </article>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-8 story-section bg-white order-1 order-sm-1 order-md-1 align-items-start">
-                            <h6 class="pt-2"><strong>TOP STORY</strong></h6>
+                        <div class="col-sm-12 col-md-6 col-lg-7 story-section h-auto bg-white order-1 order-sm-1 order-md-1 align-items-start">
+                            <h6 class="pt-2 pt-md-3"><strong>TOP STORY</strong></h6>
                             <article class="w-100">
                                 <div class="main-backg w-100">
                                 </div>
@@ -189,18 +187,18 @@
                                 <article class="story-grid order-1">
                                     <h6><strong>MY TURN</strong></h6>
                                     <div class="row">
-                                        <section class="col-4">
+                                        <div class="col-4">
                                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609812/lara-logan-egypt-sexual-assault.png?w=397&h=397&f=64520efc71bd34f32eb9f32334aa9244" alt=""/>
                                             <p><a href="https://www.newsweek.com/lara-logan-me-too-egyptian-women-turning-tide-1517971">In a New 'Me Too' Moment, Brave Women in Egypt are Turning the Tide </a></p>
-                                        </section>
-                                        <section class="col-4">
+                                        </div>
+                                        <div class="col-4">
                                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610087/ice-students-immigration-pandemic-coronavirus.jpg?w=397&h=397&f=36d039f2cccbd9fa0ba8f2988f8c4ad4" alt=""/>
                                             <p><a href="https://www.newsweek.com/trump-backtracked-students-damaged-1517939">'Trump Backtracked On Sending Students Home, But The U.S. Feels Unsafe Now' </a></p>
-                                        </section>
-                                        <section class="col-4">
+                                        </div>
+                                        <div class="col-4">
                                             <img class="w-100 img-fluid" src="	https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.png?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6" alt=""/>
                                             <p><a href="https://www.newsweek.com/swim-great-whites-work-1516686">'I Swim With Great White Sharks for a Living' </a></p>
-                                        </section>
+                                        </div>
                                     </div>
                                 </article>
                                 <article class="story-grid order-2">
@@ -208,15 +206,24 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a" alt=""/>
-                                            <p><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
+                                            <div class="caption-culture block-title border border-right-0 border-left-0 border-bottom-0">
+                                                <a class="text-center my-auto" href="/sports">COCKTAILS</a>
+                                            </div>
+                                            <p class="mt-md-n4"><a href="https://www.newsweek.com/where-can-americans-travel-now-guide-countries-open-us-tourists-1517082">Where Can Americans Travel Now? A Guide to Countries Open to U.S. Tourists </a></p>
                                         </div>
                                         <div class="col-4">
                                             <img src="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54" class="w-100 img-fluid" alt=""/>
-                                            <p><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
+                                            <div class="caption-culture block-title border border-right-0 border-left-0 border-bottom-0">
+                                                <a class="text-center my-auto" href="/sports">TRAVELS</a>
+                                            </div>
+                                            <p class="mt-md-n4"><a href="https://d.newsweek.com/en/full/1608215/pollock-twins.jpg?w=397&h=397&f=5ecb6ec97e3c5df92d77f6e4f2c63c54">9 Unsettling Unsolved Mysteries for Fans of Netflix Reboot </a></p>
                                         </div>
                                         <div class="col-4">
                                             <img src="https://d.newsweek.com/en/full/1606088/nevada.jpg?w=397&h=397&f=3b43a07ccaccf6ac6528a9e7fefc9b54" class="w-100 img-fluid" alt=""/>
-                                            <p>
+                                            <div class="caption-culture block-title border border-right-0 border-left-0 border-bottom-0">
+                                                <a class="text-center my-auto" href="/sports">BOOKS</a>
+                                            </div>
+                                            <p class="mt-md-n4">
                                                 <a href="https://www.newsweek.com/ufo-towers-tsunami-clocks-every-us-states-most-unique-roadside-attraction-1515144">
                                                     UFO Towers to Tsunami Clocks, Every State's Most Unique Roadside Attraction
                                                 </a>
@@ -226,140 +233,138 @@
                                 </article>
                                 <div class="more-stories1 d-flex flex-column order-3 align-items-start">
                                     <h6><strong>MORE STORIES</strong></h6>
-                                    <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                    <article class=" border border-bottom-0 border-left-0 border-right-0 border-secondary">
+                                        <div class=" mt-3 w-100 clearfix ">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610600/joe-biden.jpg?w=95&h=95&f=3efb75c69e38be101ef28273b4d0fcb6" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/joe-biden-hillary-clinton-polling-fundraising-donald-trump-election-1518586" class="text-dark">
                                                     <strong>Biden Is Polling Better Than Clinton Was—and Has Five Times the Cash Too</strong>
                                                 </a>
                                             </h6>
-                                            <p>Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
+                                            <p class="pl-2">Joe Biden's campaign has touted a major fundraising haul for the Democratic hopeful, closing the gap on Donald Trump's war chest.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=95&h=95&f=665e368703bca5b552e401d14bef6166" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/dhs-portland-george-floyd-protests-1518552" class="text-dark">
                                                     <strong>DHS Chief Aims to 'Restore Order' in Portland Whether Mayor Likes It or Not</strong>
                                                 </a>
                                             </h6>
-                                            <p>"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
+                                            <p class="pl-2">"We're not going to abdicate our mission," said DHS Acting Secretary Chad Wolf.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610688/20-house-races-shift-toward-democrats.jpg?w=95&h=95&f=ea93b01e12006a0b1d7b4baeb24241bf" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/democrats-could-pick-20-house-seats-most-districts-trump-won-2016-1518645" class="text-dark">
                                                     <strong>Democrats Could Pick up 20 House Seats, Most in Districts Trump Won in 2016</strong>
                                                 </a>
                                             </h6>
-                                            <p>Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
+                                            <p class="pl-2">Fifteen of the races are in congressional districts that President Donald Trump won in 2016.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610659/us-president-donald-trump.jpg?w=95&h=95&f=a22f36a4187e0907966f129243e0b465" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/coronavirus-deaths-surge-17-states-trump-claims-fatalities-down-tenfold-1518642" class="text-dark">
                                                     <strong>Coronavirus Deaths Surge in 17 States as Trump Claims Fatalities Down</strong>
                                                 </a>
                                             </h6>
-                                            <p>
+                                            <p class="pl-2">
                                                 Several states across the U.S. have seen a rise in coronavirus-related deaths, since June 1, while President Donald Trump recently made the outdated claim that fatalities from the virus were
                                                 down "tenfold."
                                             </p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610622/coronavirus-miami.jpg?w=95&h=95&f=bed635f4af639263de294b2734eddb51" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/record-coronavirus-deaths-reported-texas-florida-1518617" class="text-dark"><strong>Record Coronavirus Deaths Reported in Texas and Florida</strong></a>
                                             </h6>
-                                            <p>The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
+                                            <p class="pl-2">The U.S. is the worst-hit country in the world, with more than 3.5 million confirmed cases and over 138,000 recorded deaths.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3">
-                                            <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" alt=""/>
-                                        </div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610525/israel-iran-syria-us-airstrikes-military-advisers.jpg?w=95&h=95&f=d22305b0b82fe9b5ad4b081bd67c453b" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/iran-threatens-israel-us-lying-killing-advisors-syria-1518536" class="text-dark">
                                                     <strong>Iran Threatens Israel, U.S. for 'Lying' About Killing Advisers in Syria</strong>
                                                 </a>
                                             </h6>
-                                            <p>Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
+                                            <p class="pl-2">Israel conducts semi-regular strikes on Iranian forces and their allies across the border in Syria, having vowed not to let Tehran establish a foothold in the war-torn nation.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610543/mark-zuckerberg.png?w=95&h=95&f=e09800277c5b422e4e01a49f8f8dfc87" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/zuckerberg-fauci-trump-covid-19-misinformation-facebook-1518549" class="text-dark">
                                                     <strong>Zuckerberg Criticizes Trump's COVID-19 Response, Says CDC 'Undermined'</strong>
                                                 </a>
                                             </h6>
-                                            <p>The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
+                                            <p class="pl-2">The CEO made the comments during an interview with infectious disease expert Dr. Anthony Fauci.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610599/donald-trump.jpg?w=95&h=95&f=8706fab42835d224c14398d032edd3b9" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/most-americans-would-rather-control-covid-19-spread-protect-economy-poll-1518601" class="text-dark">
                                                     <strong>Most Americans Would Rather Control COVID-19 Spread Than Protect Economy</strong>
                                                 </a>
                                             </h6>
-                                            <p>Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
+                                            <p class="pl-2">Approval for President Donald Trump's handling of the pandemic is lower among those who would rather control the spread.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610754/mnuchin-small-ppp-loans-should-forgiven.jpg?w=95&h=95&f=0b2c679102e8190fbbc25b9d4e9d6a04" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/stimulus-loans-small-businesses-should-forgiven-mnuchin-says-1518706" class="text-dark">
                                                     <strong>Stimulus Loans for Small Businesses Should be Forgiven, Mnuchin Says</strong>
                                                 </a>
                                             </h6>
-                                            <p>
+                                            <p class="pl-2">
                                                 The Treasury secretary said that Congress should completely forgive the smaller loans given to businesses to keep their lights on amid the economic downturn and that loans should be extended
                                                 for hospitality and travel industries, as well.
                                             </p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=95&h=95&f=6d4cc9abcfe39ed083d72a1173950464" alt=""/>
                                             <h6>
-                                                <a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark">Inside Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</a>
+                                                <a href="https://www.newsweek.com/ghislaine-maxwell-metropolitan-detention-center-1518195" class="text-dark"><strong>Ghislaine Maxwell's Jail—Corrupt Staff, Sexual Assaults and Beatings</strong></a>
                                             </h6>
-                                            <p>While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
+                                            <p class="pl-2">While awaiting her Jeffrey Epstein sex abuse trial, Ghislaine Maxwell spends 23 hours each day inside her cell at a "very difficult" jail with a history of abuse and corrupt staff.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610565/tokyo-japan-face-mask-july-2020.jpg?w=95&h=95&f=1f09d6fae4d1d990e4453adb75d02e31" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/youtuber-spreads-coronavirus-while-shooting-video-japans-most-populous-island-1518557" class="text-dark">
                                                     <strong>YouTuber Spreads Coronavirus While Filming on Japan's Most Populous Island</strong>
                                                 </a>
                                             </h6>
-                                            <p>The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
+                                            <p class="pl-2">The man reportedly traveled across the country for the video shoot, including in the Yamaguchi Prefecture.</p>
                                         </div>
                                     </article>
                                     <article class="d-flex border border-bottom-0 border-left-0 border-right-0 border-secondary">
-                                        <div class="mt-3"><img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" alt=""/></div>
-                                        <div class="ml-0 mt-3 w-100">
+                                        <div class="pl-2 mt-3 w-100">
+                                            <img class="w-25 img-fluid float-left mr-2" src="https://d.newsweek.com/en/full/1610266/world-bank-dc.jpg?w=95&h=95&f=335583baed297e7c90fa3bf61f8ed7fc" alt=""/>
                                             <h6>
                                                 <a href="https://www.newsweek.com/world-bank-staff-have-new-goal-boost-incomes-their-assigned-countries-1518376" class="text-dark">
                                                     <strong>World Bank Staff Have a New Goal: Boost Incomes in Their Assigned Countries</strong>
                                                 </a>
                                             </h6>
-                                            <p>As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
+                                            <p class="pl-2">As the bank lends billions, chief David Malpass is leading a restructure that puts the focus on policy outcomes.</p>
                                         </div>
                                     </article>
                                 </div>
@@ -367,7 +372,7 @@
                         </div>
                     </div>
                 </div>
-                <aside class="col-xs-12 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section mt-3">
+                <aside class="col-xs-12 col-md-12 col-lg-4 col-xl-3 align-items-start debate-section h-auto mt-3">
                     <div class="ml-0 flex-column bg-white justify-content-center">
                         <h6><strong>THE DEBATE</strong></h6>
                         <article class="d-flex border border-left-0 border-right-0 border-bottom-0 mb-2 border-secondary">
@@ -392,11 +397,11 @@
                             </div>
                             <div class="mt-3 mb-3 image-thumbnail1"><img src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d" alt="hello" class="image-thumbnail"/></div>
                         </article>
-                        <div class="py-3"></div>
+                        <div class="py-3 pt-md-3"></div>
                     </div>
-                    <div class="opinion bg-white mt-3">
-                            <h6 class="mt-3 pt-3">OPINION</h6>
-                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                    <div class="opinion bg-white mt-3 mt-md-n4">
+                            <h6 class="mt-3 pt-3 pt-md-0">OPINION</h6>
+                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary pb-2">
                             <div class="mt-3"><img src="https://d.newsweek.com/en/full/1591477/hillel-c-neuer.png?w=63&h=63&f=c3bf299859aeb2eccddfee08d6adb51e" alt="hello" /></div>
                             <div class="ml-3 mt-3">
                                 <h6>
@@ -405,7 +410,7 @@
                                 <p class="small"><strong>BY HILLEL C. NEUER</strong></p>
                             </div>
                         </article>
-                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary pb-2">
                             <div class="mt-3"><img src="https://d.newsweek.com/en/full/1597913/yishai-fleisher.png?w=63&h=63&f=f8eaaffad5c71bdaa09f7daf4f623991" alt="hello" /></div>
                             <div class="ml-3 mt-3">
                                 <h6>
@@ -414,7 +419,7 @@
                                 <p class="small"><strong>BY YISHAI FLEISHER</strong></p>
                             </div>
                         </article>
-                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary pb-2">
                             <div class="mt-3"><img src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&h=63&f=f18b9a7364da071493072861d8b4448f" alt="hello" /></div>
                             <div class="ml-3 mt-3">
                                 <h6>
@@ -432,7 +437,7 @@
                                 <p class="small"><strong>BY ASAD M. KHAN</strong></p>
                             </div>
                         </article>
-                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary">
+                        <article class="d-flex border border-top-0 border-left-0 border-right-0 border-secondary pb-2">
                             <div class="mt-3"><img src="https://d.newsweek.com/en/full/1598068/kelsey-baker.png?w=63&h=63&f=43880c72e8f62d989abb32aba0d5392f" alt="hello"/></div>
                             <div class="ml-3 mt-3">
                                 <h6>
@@ -453,19 +458,19 @@
                             </div>
                         </article>
                     </div>
-                    <div class="d-flex my-4 bg-white justify-content-center">
-                        <div class="flex-column justify-content-center my-4 p-3 email-subscription-top border">
-                            <div class="d-flex">
+                    <div class="d-flex d-md-block my-4 bg-light justify-content-center">
+                        <div class="flex-column justify-content-center my-4 p-3 email-subscription-top h-auto m-1">
+                            <div class="d-flex m-2">
                                 <div class="mt-2"><img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="hello" /></div>
                                 <span class="ml-1"><strong>START YOUR DAY WITH OUR TOP 5 ARTICLES</strong></span>
                             </div>
-                            <div class="mt-3">
+                            <div class="ml-2 mr-2 mt-3">
                                 <input type="text" class="form-text form-control" placeholder="Email address" />
                                 <input type="submit" class="form-submit btn btn-primary btn-block btn-danger mt-3" value="FREE SIGN UP" />
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-3 right-news-cont">
+                    <div class="row mt-3 right-news-cont d-none d-lg-block">
                         <article class="col-md-6 col-lg-12 w-100 mb-2">
                             <div class="w-100 border">
                                 <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1610540/chad-wolf.jpg?w=591&h=364&f=c8f9c43163fe20e3117d80cd9b3d980a" alt="hello" />
@@ -499,7 +504,7 @@
                     </div>
                 </aside>
             </section>
-            <section class="mt-0 mt-md-4">
+            <div class="mt-0 mt-md-4">
                 <div class="w-100 d-md-none d-flex flex-column">
                     <article class="story-grid order-1">
                         <h5>MY TURN</h5>
@@ -539,7 +544,7 @@
                             </div>
                         </div>
                         <div class="d-flex mt-5 bg-white justify-content-center">
-                            <div class="flex-column justify-content-center my-4 p-3 email-subscription-secret border">
+                            <div class="flex-column justify-content-center my-4 p-3 bg-light email-subscription-secret border">
                                 <div class="d-flex">
                                     <div class="mt-2"><img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="hello" /></div>
                                     <span class="ml-1"><strong>START YOUR DAY WITH OUR TOP 5 ARTICLES</strong></span>
@@ -682,7 +687,7 @@
                         </div>
                     </article>
                 </div>
-            </section>
+            </div>
             <section>
                 <div class="d-flex mt-2 mb-2 flex-row justify-content-center align-items-center border border-top-0 border-left-0 border-right-0 pb-3">
                     <img class="img-fluid section-logo" src="https://g.newsweek.com/themes/newsweek/favicon.ico" alt="hello" />
@@ -732,7 +737,7 @@
                         <article class="w-100 mb-2 col-md-3">
                             <img class="w-100 img-fluid" src="https://d.newsweek.com/en/full/1607718/per-economy-01.jpg?w=466&h=311&q=90&f=aceffcfa363625adfdcedf71860ce45c" alt="" />
                             <div class="d-flex mb-3 mt-2">
-                                <p class="bg-danger text-white mr-1 px-1"><strong>PERISCOPE</strong></p>
+                                <p class="bg-danger text-white mr-1 px-1"><strong>COVER</strong></p>
                                 <p class="text-danger"><strong>BUSINESS</strong></p>
                             </div>
                             <header class="w-100 mt-n4">
@@ -890,7 +895,7 @@
                             <a href="/us">U.S.</a>
                         </div>
                         <div class="row pb-2">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/virginia-giuffre-says-ghislaine-maxwell-made-her-have-sex-owner-large-hotel-chain-1521901">
@@ -902,7 +907,7 @@
                                     <h4><a href="/virginia-giuffre-says-ghislaine-maxwell-made-her-have-sex-owner-large-hotel-chain-1521901" class="text-dark font-weight-bold">Virginia Giuffre Says Ghislaine Maxwell Made Her Have Sex with Hotel Mogul</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/california-coast-mishap-leaves-one-marine-dead-eight-missing-1521905">
@@ -914,7 +919,7 @@
                                     <h4><a href="/california-coast-mishap-leaves-one-marine-dead-eight-missing-1521905" class="text-dark font-weight-bold">California Coast 'Mishap' Leaves One Marine Dead, Eight Others Missing</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -955,7 +960,7 @@
                             <a href="/world">World</a>
                         </div>
                         <div class="row pb-2">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/man-beats-great-white-shark-surfboard-survive-attack-1521898">
@@ -967,19 +972,19 @@
                                     <h4><a href="/man-beats-great-white-shark-surfboard-survive-attack-1521898" class="text-dark font-weight-bold">Man Beats Great White Shark With Surfboard to Survive Attack</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/iran-threatens-crushing-retaliation-mike-pompeo-lauds-us-pressure-campaign-1521890">
                                             <picture class="mapping-sm_lg lazysize">
-                                                <img class="img-fluid w-100 mapping-sm_thumb lazysize lazyloaded" src="https://d.newsweek.com/en/full/1613906/hand-sanitizer-recall.jpg?w=397&amp;h=265&amp;f=260cd3e2f2d48958e0711cda171a1d74">
+                                                <img class="img-fluid w-100 mapping-sm_thumb lazysize lazyloaded" src="https://d.newsweek.com/en/full/1613906/hand-sanitizer-recall.jpg?w=397&amp;h=265&amp;f=260cd3e2f2d48958e0711cda171a1d74" alt="santizers">
                                             </picture>
                                         </a>
                                     </div>
                                     <h4><a href="/iran-threatens-crushing-retaliation-mike-pompeo-lauds-us-pressure-campaign-1521890" class="text-dark font-weight-bold">Iran Threatens Crushing Retaliation as Pompeo Lauds U.S. Pressure Campaign</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -1020,7 +1025,7 @@
                             <a href="/business">Business</a>
                         </div>
                         <div class="row pb-2">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/walmart-target-among-stores-selling-these-newly-recalled-hand-sanitizers-1520589">
@@ -1032,7 +1037,7 @@
                                     <h4><a href="/walmart-target-among-stores-selling-these-newly-recalled-hand-sanitizers-1520589" class="text-dark font-weight-bold">Walmart, Target Among Stores Selling These Newly-Recalled Hand Sanitizers</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/labor-secretary-says-600-unemployment-benefits-wont-extended-paid-people-not-work-1519444">
@@ -1044,7 +1049,7 @@
                                     <h4><a href="/labor-secretary-says-600-unemployment-benefits-wont-extended-paid-people-not-work-1519444" class="text-dark font-weight-bold">Labor Secretary: $600 Unemployment Benefits Paid People More Not to Work</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -1085,7 +1090,7 @@
                             <a href="/tech-science">Tech &amp; Science</a>
                         </div>
                         <div class="row pb-2">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/nasa-mars-helicopter-belly-probe-wright-brothers-moment-flight-1521748">
@@ -1097,7 +1102,7 @@
                                     <h4><a href="/nasa-mars-helicopter-belly-probe-wright-brothers-moment-flight-1521748" class="text-dark font-weight-bold">NASA Mars Helicopter in Belly of Probe Will Be a 'Wright Brothers Moment'</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/facebook-mark-zuckerberg-stop-hate-profit-new-statement-deadly-consequences-1521723">
@@ -1109,7 +1114,7 @@
                                     <h4><a href="/facebook-mark-zuckerberg-stop-hate-profit-new-statement-deadly-consequences-1521723" class="text-dark font-weight-bold">Stop Hate for Profit Campaign Vows to Continue, Blasts Mark Zuckerberg</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -1150,7 +1155,7 @@
                             <a href="/culture">Culture</a>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/netflix-most-watched-tv-series-shows-july-top-10-charts-unsolved-mysteries-1521909">
@@ -1162,7 +1167,7 @@
                                     <h4><a href="/netflix-most-watched-tv-series-shows-july-top-10-charts-unsolved-mysteries-1521909" class="text-dark font-weight-bold">The 10 Most-Watched TV Shows on Netflix This Month</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/beyonce-ghana-already-black-king-shatta-wale-disney-plus-1521893">
@@ -1174,7 +1179,7 @@
                                     <h4><a href="/beyonce-ghana-already-black-king-shatta-wale-disney-plus-1521893" class="text-dark font-weight-bold">Beyoncé Celebrates Ghana in 'Already' Video From 'Black Is King'</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -1215,7 +1220,7 @@
                             <a href="/sports">Sports</a>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/wgc-fedex-st-jude-invitational-leaderboard-second-round-tee-times-how-watch-live-1521864">
@@ -1227,7 +1232,7 @@
                                     <h4><a href="/wgc-fedex-st-jude-invitational-leaderboard-second-round-tee-times-how-watch-live-1521864" class="text-dark font-weight-bold">St Jude Invitational Leaderboard: Second Round Tee Times, How to Watch Live</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-3">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
                                 <article>
                                     <div class="image">
                                         <a href="/lebron-james-says-not-only-black-people-deal-racism-1521877">
@@ -1239,7 +1244,7 @@
                                     <h4><a href="/lebron-james-says-not-only-black-people-deal-racism-1521877" class="text-dark font-weight-bold">LeBron James Says 'Not Only Black People' Deal with Racism in the U.S.</a></h4>
                                 </article>
                             </div>
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <div class="feature2 subfeature2">
                                     <ul>
                                         <li class="d-flex pt-1 flex-xs border border-right-0 border-left-0 border-top-0 pb-2 pt-2">
@@ -1279,87 +1284,75 @@
                     </div>
                 </div>
             </div>
-            
         </main>
         <div class="container bg-white border border-left-0 border-right-0 border-bottom-0">
-            <section class="last-section row mt-2 m-0 h-100 ">
-            <article class="newsletter-subscribe col-sm-12 col-md-12 col-lg-7 mb-3">
-                <header class="block-title mx-n3 ml-lg-n3 mt-lg-4 mb-lg-3 text-danger">SUBSCRIBE</header>
-                <div class="row email-subscription">
-                    <div class="col-sm-12 col-md-5 mt-lg-4" id="nl-img-cont">
-                        <div>
-                            <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138" alt="hello" />
+                <div class="last-section d-lg-flex flex-lg-row row mt-2 m-0 h-100 ">
+                <article class="newsletter-subscribe col-sm-12 col-md-12 col-lg-7 pr-lg-1 mb-3 mb-md-5">
+                    <header class="block-title mx-n3 ml-lg-n3 mt-lg-4 mb-lg-3 text-danger py-md-2 py-lg-0"><strong>SUBSCRIBE</strong></header>
+                    <div class="row email-subscription pt-md-4 pt-lg-0">
+                        <div class="col-sm-12 col-md-5 col-lg-6 mt-lg-" id="nl-img-cont">
+                                <div>
+                                    <img src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138" alt="hello" />
+                                </div>
+                                <div id="newsletter-img-top">
+                                    <img src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063" alt="hello" />
+                                </div>
                         </div>
-                        <div id="newsletter-img-top">
-                            <img src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063" alt="hello" />
-                        </div>
-                    </div>
-                    <div class="col-sm-12 subscribe-sect col-md-7 mt-md-5">
-                        <header class="text-center">
-                            <h3><strong>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</strong></h3>
-                            <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
-                        </header>
-                        <div class="f1 info w-100 border-danger justify-content-center text-center">
-                            <button type="button" class="btn btn-danger mt-2 mb-2 ml-2 mr-2">SUBSCRIBE ></button>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="newsletter col-sm-12 col-md-12 col-lg-5">
-                <header class="block-title mx-0 mx-md-0 ml-lg-3 mb-lg-1 text-danger">NEWSLETTER</header>
-                <div class="d-lg-flex justify-content-center border" id="news-border">
-                    <div class="news-block row w-100 justify-content-center p-3">
-                        <div class="col-sm-3 col-lg-6 w-lg-50 d-lg-block" id="newsletter-large-pic"></div>
-                        <div class="smalldiv col-sm-9 col-lg-6 w-100 w-lg-50 pl-3 py-5 border">
-                            <div>
-                                <h3 class="text-center text-lg-left mb-3"><strong>The Starting 5</strong></h3>
-                                <p class="text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                            </div>
-                            <div class="mt-3">
-                                <input type="text" class="form-text form-control" placeholder="Email address" />
-                                <input type="submit" class="form-submit btn btn-primary btn-block btn-danger mt-3" value="FREE SIGN UP" />
+                        <div class="col-sm-12 subscribe-sect col-md-7 col-lg-6 mt-md-5">
+                            <header class="text-center">
+                                <h3 class="text-md-left"><strong>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</strong></h3>
+                                <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                            </header>
+                            <div class="f1 info w-100 border-danger justify-content-center text-center">
+                                <button type="button" class="btn btn-danger mt-2 mb-2 ml-2 mr-2">SUBSCRIBE ></button>
                             </div>
                         </div>
                     </div>
-                </div>
-            </article>
-        </section>
+                </article>
+                <article class="newsletter col-sm-12 col-md-12 ml-lg-1 col-lg-4 mb-3 mb-md-0 mt-n4">
+                    <header class="block-title mx-0 mx-md-0 ml-lg-n3 mt-lg-4 mb-lg-3 text-danger pt-md-2"><strong>NEWSLETTER</strong></header>
+                    <div class="d-lg-flex justify-content-center border-lg-none" id="news-border">
+                        <div class="news-block row justify-content-center border mt-1 mt-lg-n1 mb-3">
+                            <div class="col-sm-3 col-lg-6 d-none d-md-block d-lg-block" id="newsletter-large-pic"></div>
+                            <div class="smalldiv col-sm-9 col-lg-6 w-100 pl-3 py-2 border mb-2">
+                                <div class="pt-md-3">
+                                    <h3 class="text-center text-lg-left mb-3 text-md-left"><strong>The Starting 5</strong></h3>
+                                    <p class="text-center text-md-left">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                                </div>
+                                <div class="mt-3 mb-n2">
+                                    <input type="text" class="form-text form-control" placeholder="Email address" />
+                                    <input type="submit" class="form-submit btn btn-primary btn-block btn-danger mt-2" value="FREE SIGN UP" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
-        <footer class="container bg-white pt-5" id="sticky-footer">
-            <div class="d-flex pl-3" id="footer-content">
+        <footer class="container bg-white pt-5 pt-lg-0" id="sticky-footer">
+            <div class="d-flex flex-row pl-3">
                 <div><img src="images/newsweeklogo.png" id="footer-logo" alt="hello"/></div>
-                <span class="footer-copyright small pr-md-2">© 2020 NEWSWEEK</span>
-                <nav class="bd-highlight social">
-                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                    <i class="fa fa-tumblr-square fa-2x" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                <span class="footer-copyright small ml-2 mr-auto mt-4 pr-md-2">© 2020 NEWSWEEK</span>
+                <nav class="bd-highlight d-flex justify-content-end">
+                    <i class="fa fa-facebook-square fa-2x pr-1" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-2x pr-1" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-2x pr-1" aria-hidden="true"></i>
+                    <i class="fa fa-tumblr-square fa-2x pr-1" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-2x pr-1" aria-hidden="true"></i>
                 </nav>
             </div>
             <div class="mx-3">
                 <hr class="bg-secondary w-100" />
             </div>
             <div class="w-100">
-<<<<<<< HEAD
-                <nav id="navbar-nav2" class="navbar-nav2 d-flex pl-2">
-                    <ul class="navbar-ul d-flex list-unstyled editions-list">
-                        <span class="pl-2"><strong>Editions:</strong></span>
-                        <li class="nav-item p-2 mt-n1 small"><a href="https://www.newsweek.com/" class="text-secondary">U.S. Edition</a></li>
-                        <li class="nav-item p-2 small mt-sm-n1"><a href="https://www.newsweekjapan.jp/" class="text-secondary">日本</a></li>
-                        <li class="nav-item p-2 small mt-sm-n1"><a href="http://newsweekpakistan.com/" class="text-secondary">Pakistan</a></li>
-                        <li class="nav-item p-2 small mt-sm-n1"><a href="https://www.newsweek.pl/" class="text-secondary">Polska</a></li>
-                        <li class="nav-item p-2 small mt-sm-n1"><a href="https://newsweek.ro/" class="text-secondary">România</a></li>
-=======
                 <nav id="navbar-nav2" class="d-flex pl-2">
                     <ul class="navbar-ul d-flex list-unstyled editions-list">
-                        <span class="pl-3"><strong>Editions:</strong></span>
+                        <li class="pl-3 pl-md-2"><strong>Editions:</strong></li>
                         <li class="nav-item p-2 mt-n1 small"><a href="https://www.newsweek.com/" class="text-secondary">U.S. Edition</a></li>
                         <li class="nav-item p-2 mt-n1 small"><a href="https://www.newsweekjapan.jp/" class="text-secondary">日本</a></li>
                         <li class="nav-item p-2 mt-n1 small"><a href="http://newsweekpakistan.com/" class="text-secondary">Pakistan</a></li>
                         <li class="nav-item p-2 mt-n1 small"><a href="https://www.newsweek.pl/" class="text-secondary">Polska</a></li>
                         <li class="nav-item p-2 mt-n1 small"><a href="https://newsweek.ro/" class="text-secondary">România</a></li>
->>>>>>> ed93d935f73e90fb1125ca04d0cd00bb875b0f38
                     </ul>
                 </nav>
             </div>

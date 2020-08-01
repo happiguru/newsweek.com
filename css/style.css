@@ -68,7 +68,9 @@ ul li {
   opacity: 0.9;
 }
 
-.caption a {
+.caption a,
+.caption1 a,
+.caption-culture a {
   color: red;
   align-self: center;
   font-weight: 800;
@@ -83,6 +85,10 @@ ul li {
 nav > div.w-30 {
   height: inherit;
   width: 30%;
+}
+
+.block-title > a {
+  line-height: 2.25rem;
 }
 
 nav > div.w-30 > a {
@@ -111,7 +117,7 @@ nav > div.w-70 {
 /* Main Section Starts here */
 
 main {
-  margin-top: 60px;
+  margin-top: 50px;
   height: auto;
   width: 100%;
 }
@@ -125,7 +131,7 @@ article.subscribe-art {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 364px;
+  height: 243px;
 }
 
 div.mag-thumb.current,
@@ -162,10 +168,6 @@ article.newsletter {
   top: 20px;
 }
 
-div.subscribe-sect {
-  margin-top: 100px;
-}
-
 article {
   height: auto;
 }
@@ -174,6 +176,7 @@ h3 {
   font-size: 24px;
   line-height: 24px;
 }
+
 h5.mini-header {
   font-size: 16px;
   line-height: 16px;
@@ -203,10 +206,6 @@ h5.mini-header {
   right: 0;
 }
 
-.block-title > a {
-  line-height: 2.25rem;
-}
-
 #versus-container::after {
   content: "";
   display: block;
@@ -228,20 +227,12 @@ h5.mini-header {
   top: 0;
 }
 
-.right-news-cont {
-  display: none;
-}
-
 .section-logo {
   width: 29px;
 }
 
 #newsletter-img-top {
   width: 177px;
-}
-
-#footer-content {
-  flex-direction: column;
 }
 
 #footer-logo {
@@ -254,11 +245,7 @@ h5.mini-header {
 
 #nl-img-cont {
   height: 180px;
-  padding-left: 36px;
-}
-
-#newsletter-large-pic {
-  display: none;
+  padding-left: 10%;
 }
 
 #navbar-nav2 {
@@ -269,7 +256,30 @@ div.smalldiv {
   border: none !important;
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  div.main-backg {
+    height: 217px;
+  }
+
+  .caption-culture {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 0;
+    background-color: #fff;
+    width: 70px;
+    height: 30px;
+    opacity: 0.8;
+  }
+
+  .caption-culture.block-title > a {
+    line-height: 1.25rem;
+  }
 
   .feature-section,
   .story-section,
@@ -284,16 +294,8 @@ div.smalldiv {
     top: 4rem;
   }
 
-  .feature-cont {
-    align-items: flex-start;
-  }
-
   .image-thumbnail1 {
     margin-left: auto;
-  }
-
-  .last-section {
-    flex-direction: row;
   }
 
   .email-subscription-top {
@@ -306,15 +308,14 @@ div.smalldiv {
     height: auto;
   }
 
-  .right-news-cont {
-    display: none;
+  #nl-img-cont {
+    padding-left: 3%;
   }
 
   .more-stories1 {
     position: -webkit-sticky;
     position: sticky;
     bottom: 1rem;
-    align-self: flex-end;
   }
 
   #newsletter-large-pic {
@@ -324,38 +325,11 @@ div.smalldiv {
     background-size: cover;
     height: 254px;
   }
-
-  #sticky-footer {
-    margin: 0;
-    padding: 0;
-  }
-
-  .footer-copyright,
-  .social {
-    align-self: flex-end;
-    margin-right: auto;
-  }
-
-  #footer-content {
-    flex-direction: row;
-  }
-
-  .footer-copyright {
-    align-self: flex-end;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  #middle-navbar,
-  nav.nav-navigation,
-  nav.navia {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 992px) {
   main {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   nav.navia {
@@ -369,16 +343,8 @@ div.smalldiv {
     top: 0;
   }
 
-  .top-header {
-    padding: 0;
-  }
-
   .header-logo {
     height: 90px;
-  }
-
-  #middle-navbar {
-    display: block;
   }
 
   .weather-icon {
@@ -392,16 +358,10 @@ div.smalldiv {
   /* This is for the middle navbar */
 
   .nav-navigation {
-    display: flex;
-    justify-content: space-between;
     height: 55px;
   }
 
   .navbar-nav1 {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: stretch;
     width: 90%;
     height: 54px;
   }
@@ -418,9 +378,8 @@ div.smalldiv {
   ul.navbar-nav1 {
     font-size: 1rem;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: "Roboto Condensed", sans-serif;
-    color: black;
   }
 
   ul.navbar-nav1 li a {
@@ -429,15 +388,8 @@ div.smalldiv {
     flex-grow: 1;
   }
 
-  #nav-link-long {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .feature-section,
-  .story-section,
-  .debate-section {
-    height: auto;
+  div.main-backg {
+    height: 317px;
   }
 
   .story-section,
@@ -448,7 +400,6 @@ div.smalldiv {
   }
 
   div.weather {
-    position: relative;
     top: -90px;
   }
 
@@ -456,21 +407,21 @@ div.smalldiv {
     z-index: 100;
   }
 
-  nav.nav-navigation {
-    display: flex;
+  ul.navbar-nav1 li a,
+  ul.nav li,
+  ul.navbar-nav {
+    color: black;
   }
 
   ul.navbar-nav {
     font-size: 1.1rem;
     line-height: 24px;
     font-family: "Roboto Condensed", sans-serif;
-    color: black;
   }
 
   ul.navbar-nav1 li a,
   ul.nav li {
-    color: black;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   ul.nav li,
@@ -493,34 +444,18 @@ div.smalldiv {
     position: -webkit-sticky;
     position: sticky;
     bottom: 1rem;
-    align-self: flex-start;
   }
 
   .email-subscription-top {
     width: 80%;
-    height: auto;
   }
 
   .form-inline {
     width: 14%;
-    justify-content: flex-start;
-  }
-
-  .form-control {
-    padding: 0;
   }
 
   .navbar-nav {
     width: 86%;
-  }
-
-  #coll {
-    margin: 0;
-    display: flex;
-  }
-
-  .navbar-expand .navbar-collapse {
-    display: flex !important;
   }
 
   div.magazine-pick article > img,
@@ -564,26 +499,20 @@ div.smalldiv {
     margin: 0;
   }
 
-  .feature-cont {
-    align-items: flex-start;
-  }
-
   .story-section {
     position: -webkit-sticky;
     position: sticky;
     top: 4rem;
-    align-self: flex-start;
   }
 
   .feature-section {
     position: -webkit-sticky;
     position: sticky;
-    bottom: 1rem;
-    align-self: flex-end;
+    top: 0;
   }
 
-  .last-section {
-    flex-direction: row;
+  .feature-section h6 {
+    padding-top: 9px;
   }
 
   #newsletter-large-pic {
@@ -598,19 +527,7 @@ div.smalldiv {
     height: 350px;
   }
 
-  .social {
-    margin-left: auto;
-  }
-
   #news-border {
-    border: none !important;
-  }
-
-  #footer-content {
-    flex-direction: row;
-  }
-
-  .footer-copyright {
-    align-self: flex-end;
+    width: 432px;
   }
 }
