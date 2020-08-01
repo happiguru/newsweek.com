@@ -57,15 +57,24 @@ ul li {
   font-weight: 700;
 }
 
-.caption {
+.caption,
+.caption2 {
   text-align: center;
   position: relative;
-  top: -35px;
   left: 0;
   background-color: #fff;
-  width: 80px;
   height: 35px;
   opacity: 0.9;
+}
+
+.caption {
+  top: -35px;
+  width: 80px;
+}
+
+.caption2 {
+  top: -50px;
+  width: 100px;
 }
 
 .caption a,
@@ -245,6 +254,10 @@ h5.mini-header {
 #nl-img-cont {
   height: 180px;
   padding-left: 10%;
+}
+
+.subscribe-sect h3 {
+  font-size: 1rem;
 }
 
 #navbar-nav2 {
