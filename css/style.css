@@ -164,10 +164,6 @@ article.newsletter {
   top: 20px;
 }
 
-/*div.subscribe-sect {
-  margin-top: 100px;
-}*/
-
 article {
   height: auto;
 }
@@ -230,20 +226,12 @@ h5.mini-header {
   top: 0;
 }
 
-.right-news-cont {
-  display: none;
-}
-
 .section-logo {
   width: 29px;
 }
 
 #newsletter-img-top {
   width: 177px;
-}
-
-#footer-content {
-  flex-direction: column;
 }
 
 #footer-logo {
@@ -257,10 +245,6 @@ h5.mini-header {
 #nl-img-cont {
   height: 180px;
   padding-left: 10%;
-}
-
-#newsletter-large-pic {
-  display: none;
 }
 
 #navbar-nav2 {
@@ -310,16 +294,8 @@ div.smalldiv {
     top: 4rem;
   }
 
-  .feature-cont {
-    align-items: flex-start;
-  }
-
   .image-thumbnail1 {
     margin-left: auto;
-  }
-
-  .last-section {
-    flex-direction: row;
   }
 
   .email-subscription-top {
@@ -332,10 +308,6 @@ div.smalldiv {
     height: auto;
   }
 
-  .right-news-cont {
-    display: none;
-  }
-
   #nl-img-cont {
     padding-left: 3%;
 }
@@ -344,7 +316,6 @@ div.smalldiv {
     position: -webkit-sticky;
     position: sticky;
     bottom: 1rem;
-    align-self: flex-end;
   }
 
   #newsletter-large-pic {
@@ -355,31 +326,6 @@ div.smalldiv {
     height: 254px;
   }
 
-  #sticky-footer {
-    padding: 0;
-  }
-
-  .footer-copyright,
-  .social {
-    align-self: flex-end;
-    margin-right: auto;
-  }
-
-  #footer-content {
-    flex-direction: row;
-  }
-
-  .footer-copyright {
-    align-self: flex-end;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  #middle-navbar,
-  nav.nav-navigation,
-  nav.navia {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -398,16 +344,8 @@ div.smalldiv {
     top: 0;
   }
 
-  .top-header {
-    padding: 0;
-  }
-
   .header-logo {
     height: 90px;
-  }
-
-  #middle-navbar {
-    display: block;
   }
 
   .weather-icon {
@@ -530,7 +468,6 @@ div.smalldiv {
   }
 
   .email-subscription-top {
-    display: inline;
     width: 80%;
     height: auto;
   }
@@ -650,13 +587,11 @@ div.smalldiv {
 
   #news-border {
     border: none !important;
+    width: 432px;
   }
 
   #footer-content {
     flex-direction: row;
   }
 
-  .footer-copyright {
-    align-self: flex-end;
-  }
 }
